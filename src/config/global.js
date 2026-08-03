@@ -1,17 +1,18 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Perfil del consumidor',
+    Description:
+      'El componente formativo aborda los fundamentos de la sostenibilidad, el consumidor verde, el mercado y la prospección, orientados a la comprensión del contexto comercial y la identificación de oportunidades en negocios sostenibles, fortaleciendo la toma de decisiones en procesos de caracterización del cliente.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.png',
       },
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.png',
       },
     ],
   },
@@ -31,39 +32,26 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Objetivos desarrollo sostenible (sostenibilidad)',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Consumidor verde',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Mercado',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 4',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema5',
-        numero: '5',
-        titulo: 'Tema 5',
+        titulo: 'Prospección',
         desarrolloContenidos: true,
       },
     ],
@@ -109,14 +97,110 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Biocomercio',
+      significado:
+        'Actividad económica basada en el uso sostenible de biodiversidad con criterios ambientales, sociales y económicos responsables.',
+    },
+    {
+      termino: 'Consumidor verde',
+      significado:
+        'Persona que considera el impacto ambiental y social al tomar decisiones de compra responsables.',
+    },
+    {
+      termino: 'Desarrollo sostenible',
+      significado:
+        'Modelo que equilibra necesidades actuales sin comprometer recursos de futuras generaciones.',
+    },
+    {
+      termino: 'Ecodiseño',
+      significado:
+        'Diseño de productos considerando su impacto ambiental durante todo su ciclo de vida.',
+    },
+    {
+      termino: 'Economía circular',
+      significado:
+        'Modelo que promueve reutilización, reciclaje y reducción de residuos en procesos productivos.',
+    },
+    {
+      termino: 'Mercado',
+      significado:
+        'Espacio donde interactúan compradores y vendedores para intercambiar bienes o servicios.',
+    },
+    {
+      termino: 'Prospección',
+      significado:
+        'Proceso de identificación de clientes potenciales para oportunidades comerciales.',
+    },
+    {
+      termino: 'Segmentación',
+      significado:
+        'División del mercado en grupos con características similares para estrategias específicas.',
+    },
+    {
+      termino: 'Sostenibilidad',
+      significado:
+        'uso responsable de recursos integrando aspectos económicos, sociales y ambientales.',
+    },
+    {
+      termino: 'Variables de mercado',
+      significado:
+        'Factores que influyen en el comportamiento del consumidor y decisiones comerciales.',
     },
   ],
   referencias: [
     {
-      referencia: 'REF',
-      link: 'LINK',
+      referencia:
+        'Docsity. (s.f.). <em>Tema 8: La comunicación comercial</em>. Apuntes de Investigación Empresarial.',
+      link: 'https://www.docsity.com',
+    },
+    {
+      referencia:
+        'Domínguez Casas, Á. M. (2017). <em>Los programas de fidelización online: un estudio desde el engagement marketing y las comunidades de marca</em> [Tesis doctoral, Universidad de Valladolid]. Dialnet.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ellen MacArthur Foundation. (s.f.). <em>What is the circular economy?</em>',
+      link: 'https://ellenmacarthurfoundation.org/topics/circular-economy-introduction/overview',
+    },
+    {
+      referencia:
+        'International Organization for Standardization. (s.f.). <em>ISO 14001 Environmental Management</em>.',
+      link: 'https://www.iso.org/iso-14001-environmental-management.html',
+    },
+    {
+      referencia:
+        'Manzanal, M., Chávez, E., & Rivero, A. (2020). <em>Los elementos de la negociación: ¿cómo intervienen dentro de las etapas?</em> Revista CEA, 4(1).',
+      link: '',
+    },
+    {
+      referencia:
+        'Miranda Plata, P. A. (2020). <em>Creación e implementación de formatos para el seguimiento de los procesos del área comercial</em> [Trabajo de grado, Universidad Santo Tomás]. Repositorio USTA.',
+      link: '',
+    },
+    {
+      referencia:
+        'Naciones Unidas. (s.f.). <em>Objetivos de Desarrollo Sostenible</em>.',
+      link: 'https://sdgs.un.org/es/goals',
+    },
+    {
+      referencia: 'Nike. (s.f.). <em>Move to Zero</em>.',
+      link: 'https://www.nike.com/sustainability',
+    },
+    {
+      referencia:
+        'Niño Sierra, D. F. (s.f.). <em>Fidelización del cliente</em>. Fundación Universitaria UNIEMPRESARIAL.',
+      link: '',
+    },
+    {
+      referencia:
+        'Salcedo, J. (2021). <em>Estrategias y táctica de negociación</em>. Universidad San Marcos.',
+      link: '',
+    },
+    {
+      referencia:
+        'United Nations. (s.f.). <em>Sustainable Development Goals</em>.',
+      link: 'https://sdgs.un.org/goals',
     },
   ],
   creditos: [

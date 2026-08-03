@@ -9,12 +9,17 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.justify-content-center.align-items-center           
-      .col-lg-12
-        figure
-          .video.mb-2
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Leyenda del video
+    img(data-aos="fade-up")(src="@/assets/curso/intro.png", alt="")
+    
+    .row.justify-content-center.z-2
+      .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
+        div.banner-text
+          p.mb-0 El componente aborda los fundamentos de la sostenibilidad, el consumidor verde, el mercado y la prospección, como base para comprender el contexto de los negocios sostenibles. Integra conceptos, tipologías y marcos normativos que explican el impacto ambiental del consumo y la relación entre las necesidades del cliente y las dinámicas del mercado.
+
+    .row.justify-content-center
+      .col-xl-10
+        p Su propósito es fortalecer la capacidad del aprendiz para analizar el entorno comercial, identificar perfiles de consumidores y reconocer oportunidades de comercialización sostenible. El contenido se desarrollará mediante enfoques conceptuales y aplicados, utilizando ejemplos y análisis de casos que faciliten la comprensión y la toma de decisiones en contextos reales.
+
 </template>
 
 <script>

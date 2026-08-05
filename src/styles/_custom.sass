@@ -83,10 +83,22 @@ figcaption, table caption
   background-color: $color-acento-contenido-a10
 .bg-primario-p20
   background-color: $color-primario-p20
-.bg-contenido-a20
-  background-color: $color-acento-contenido-a20
+.bg-botones-a10
+  background-color: $color-acento-botones-a10
 .bg-gris-sistema
   background-color: $color-sistema-h
+.bg-gradiente-gy
+  background: linear-gradient(270deg, rgba(252, 253, 242, 0.98) 0%, rgba(235, 250, 247, 1) 100%)
+  
+
+.bg-img
+  background-image: url('../assets/curso/common/bg-files.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  border-radius: 20px
+  &--2
+    background-image: url('../assets/curso/common/bg-2.png')
 
 .bg-slider
   background-image: url('../assets/curso/common/bg-slider.png')
@@ -95,28 +107,32 @@ figcaption, table caption
   background-repeat: no-repeat
   border-radius: 20px
 
+.bg-cards
+  background-image: url('../assets/curso/common/bg-cards.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 
-// WIDTH
+.bg-quote
+  background-image: url('../assets/curso/common/bg-quote.png')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 
-.imgw-80
-  width: 80px
-  margin: 0 auto
 
-.imgw-85
-  width: 85px
-  margin: 0 auto
+// WIDTH IMAGES
 
 .imgw-105
   width: 105px
   margin: 0 auto
 
-  .imgw-120
-    width: 120px
-    margin: 0 auto
+  // .imgw-120
+  //   width: 120px
+  //   margin: 0 auto
 
-  .imgw-160
-    width: 160px
-    margin: 0 auto
+  // .imgw-160
+  //   width: 160px
+  //   margin: 0 auto
 
 //GENERALES
 
@@ -157,9 +173,9 @@ figcaption, table caption
   align-items: center
   position: relative
 .titulo-con-imagen__fondo
-  background-color: $color-primario
+  background: linear-gradient(270deg, rgba(252, 235, 247, 0.98) 0%, rgba(195, 240, 231, 1) 100%)
   border-radius: 20px
-  padding: 10px 30px 10px 60px
+  padding: 10px 30px 10px 40px
   display: inline-flex
   align-items: center
   &.color-terciario
@@ -172,19 +188,19 @@ figcaption, table caption
   margin: 0
   padding-left: 20px
 
-// .fullwidth-bg
-//   display: none
-//   position: relative
-//   z-index: 0
+.fullwidth-bg
+  display: none
+  position: relative
+  z-index: 0
 
-//   @media (min-width: $bp-min-lg)
-//     display: block
+  @media (min-width: $bp-min-lg)
+    display: block
 
-  // &--1::after
-  //   top: 0
-  //   left: 0
-  //   position: absolute
-  //   content: url('../assets/curso/common/bg-timeline.png')
+  &--1::after
+    top: 0
+    left: -55px
+    position: absolute
+    content: url('../assets/curso/common/bg-1.png')
 
 
 .z-2
@@ -221,7 +237,7 @@ figcaption, table caption
     .crd_hover_txt--body   
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
       transform: translateY(0)
-      // background-color: $color-terciario-t10
+      background-color: $color-acento-contenido-a10
       opacity: 0.95
       // h4
       //   color: $color-sistema-texto
@@ -234,12 +250,12 @@ figcaption, table caption
     bottom: 0    
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
-    background-color: $color-terciario-t10
+    background-color: $color-secundario
     h4 
       text-align: center
     &--custom
       transform: translateY(calc( 100% - 5.30rem ))
-      background-color: $color-secundario-s5
+      background-color: $color-secundario
 
 
   
@@ -335,3 +351,10 @@ ul.checklist
     position: absolute
   @media (min-width: $bp-min-xl)
     top: -80px
+
+.arbol-img
+  @media (min-width: $bp-min-lg)
+    position: absolute
+    bottom: 0
+    right: 0
+    width: 200px

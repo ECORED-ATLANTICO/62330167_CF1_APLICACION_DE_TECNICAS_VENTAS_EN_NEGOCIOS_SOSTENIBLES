@@ -89,7 +89,8 @@ figcaption, table caption
   background-color: $color-sistema-h
 .bg-gradiente-gy
   background: linear-gradient(270deg, rgba(252, 253, 242, 0.98) 0%, rgba(235, 250, 247, 1) 100%)
-  
+.bg-gradiente-pg
+  background: linear-gradient(90deg, rgba(252, 235, 247, 0.98) 0%, rgba(234, 242, 245, 1) 83%, rgba(229, 243, 245, 1) 100%)
 
 .bg-img
   background-image: url('../assets/curso/common/bg-files.png')
@@ -264,8 +265,15 @@ figcaption, table caption
       p
         font-size: 0.85em
 
-.tabs-a__tab
-  background-color: $color-primario
+.tabs-a
+  &__tab
+    background-color: $color-primario
+    &.tabs-a__tab__selected
+      background-color: $color-acento-contenido-a10 !important
+      &::before
+        background-color: $color-acento-contenido-a10 !important
+  &__content-item
+    background-color: $color-primario-p5
 
 .linea-tiempo-c__header
   &__btn--right
@@ -317,14 +325,14 @@ ul.checklist
       width: 80%
 
   &__btn
-    height: 35px
-    width: 35px
-    max-width: 35px
+    height: 42px
+    width: 42px
+    max-width: 42px
     background-color: $color-acento-botones
     border-radius: 50%
     padding: 0 !important
     margin: 0 auto
-    color: $white
+    // color: $white
     .fa-chevron-left
       font-size: 20px
     .fa-chevron-right
@@ -344,13 +352,15 @@ ul.checklist
       background-color: $color-secundario-s10
 
 .imagen-inf
+  width: 250px
+  max-width: unset
   position: static
   @media (min-width: $bp-min-lg)
-    top: -60px
-    left: 0
+    top: -80px
+    left: -30px
     position: absolute
   @media (min-width: $bp-min-xl)
-    top: -80px
+    top: -90px
 
 .arbol-img
   @media (min-width: $bp-min-lg)

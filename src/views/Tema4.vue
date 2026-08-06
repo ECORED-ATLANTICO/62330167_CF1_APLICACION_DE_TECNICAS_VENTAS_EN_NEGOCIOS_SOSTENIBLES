@@ -78,7 +78,7 @@
 
     separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.2 métodos
+      h2 4.2 Métodos
 
     p.mb-5.z-2 Los métodos de prospección son las formas mediante las cuales las empresas identifican clientes potenciales, estos pueden ser tradicionales o digitales, dependiendo del contexto y del tipo de mercado. En los negocios sostenibles, es fundamental utilizar métodos que permitan identificar consumidores interesados en propuestas responsables, aprovechando herramientas tecnológicas y canales de comunicación actuales.
 
@@ -107,6 +107,18 @@
             td Prospección directa
             td(colspan="2") Implica contacto directo con el cliente, permitiendo conocer sus necesidades y establecer relaciones comerciales.	
             td(colspan="2") Un asesor comercial visita tiendas locales para presentar productos sostenibles y conocer directamente las necesidades del cliente.
+          tr
+            td Prospección digital   
+            td(colspan="2") Utiliza herramientas tecnológicas y redes sociales para identificar clientes potenciales de manera eficiente. 
+            td(colspan="2") Una empresa analiza interacciones en redes sociales para identificar usuarios interesados en productos ecológicos y dirigir campañas específicas. 
+          tr
+            td Referencias 
+            td(colspan="2") Se basa en recomendaciones de clientes actuales, facilitando la generación de confianza en nuevos prospectos. 
+            td(colspan="2") Un cliente satisfecho recomienda productos sostenibles a otros, generando nuevos prospectos con mayor probabilidad de compra. 
+          tr
+            td Eventos y ferias 
+            td(colspan="2") Permite interactuar con clientes potenciales en espacios donde se presentan productos y tendencias del mercado. 
+            td(colspan="2") Una empresa participa en una feria ecológica y establece contacto con consumidores interesados en productos sostenibles. 
 
     .row.justify-content-center.align-items-center.z-2
       .col-xl-10
@@ -117,13 +129,13 @@
             .col-lg-8
               h4 Pregunta de aplicación
               p.mb-4.mb-lg-0 ¿Qué método de prospección sería más efectivo para identificar consumidores sostenibles en un entorno digital?
-            .col-6.col-sm-4.co.d-none.d-lg-blockl-lg-3
+            .col-6.col-sm-4.col-lg-3
               figure.position-relative
                 img.imagen-inf(src="@/assets/curso/common/world-question.png", alt="")
 
     separador
     #t_4o-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.3 herramientas
+      h2 4.3 Herramientas
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-4.col-sm-2.col-lg-1
@@ -168,7 +180,7 @@
 
     separador
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.4 técnicas
+      h2 4.4 Técnicas
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-8.col-lg-4
@@ -209,6 +221,18 @@
             td Entrevista
             td(colspan="2") Permite obtener información directa del cliente, identificando necesidades, intereses y percepciones sobre productos sostenibles.	
             td(colspan="2") Un asesor entrevista a clientes para conocer su interés en productos ecológicos y ajustar la propuesta comercial según sus respuestas.
+          tr
+            td Observación 
+            td(colspan="2") Analiza el comportamiento del consumidor en diferentes contextos, facilitando la identificación de patrones de compra. 
+            td(colspan="2") Una tienda observa qué productos sostenibles son más consultados o comprados para ajustar su oferta y exhibición. 
+          tr
+            td Análisis de comportamiento 
+            td(colspan="2") Examina datos del consumidor para comprender sus hábitos y preferencias, orientando la toma de decisiones comerciales. 
+            td(colspan="2") Una empresa analiza datos de compra en su plataforma digital y detecta alta preferencia por productos biodegradables. 
+          tr
+            td Seguimiento 
+            td(colspan="2") Permite mantener contacto con el cliente, evaluando su interés y fortaleciendo la relación comercial. 
+            td(colspan="2") Un asesor contacta nuevamente a clientes interesados para resolver dudas y cerrar la venta de productos sostenibles. 
 
     .row.justify-content-center
       .col-xl-10
@@ -223,9 +247,9 @@
                   p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica la prospección de clientes, destacando su importancia, canales, análisis, clasificación, estrategias, seguimiento y técnicas para generar oportunidades comerciales efectivas.
 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.d-block(:href="obtenerLink('/downloads/Sintesis.pdf')"  target="_blank")
-                    span Ir al recurso
-                    i.fas.fa-file-pdf
+                  a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=50E2sAVgx5c  "  target="_blank")
+                    span Enlace
+                    i.fas.fa-file-video
 
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
@@ -256,14 +280,6 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

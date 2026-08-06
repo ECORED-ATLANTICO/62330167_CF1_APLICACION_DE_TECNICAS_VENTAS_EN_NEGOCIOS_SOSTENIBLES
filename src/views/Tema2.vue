@@ -24,7 +24,7 @@
 
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.1 Tipos de consumidor verde
+      h2 2.1 Tipos
 
     .bg-botones-a10.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
@@ -124,7 +124,7 @@
       
     separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.3.	Ciclo de vida del producto
+      h2 2.3	Ciclo de vida del producto
 
     img(data-aos="fade-up")(src="@/assets/curso/tema2/7.png", alt="")
     
@@ -199,7 +199,7 @@
     separador
 
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.4.	Ecodiseño
+      h2 2.4	Ecodiseño
 
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -231,6 +231,18 @@
             td Reducción de materiales
             td(colspan="2") Minimiza el uso de recursos en la fabricación del producto, optimizando su diseño y reduciendo el impacto ambiental.	
             td(colspan="2") Una empresa de envases reduce el grosor del plástico en sus botellas, manteniendo funcionalidad y disminuyendo el uso de materia prima.
+          tr
+            td Eficiencia energética 
+            td(colspan="2") Diseña productos que consumen menos energía durante su uso, contribuyendo a la sostenibilidad y reducción de costos. 
+            td(colspan="2") Un fabricante de electrodomésticos desarrolla neveras con menor consumo eléctrico, permitiendo ahorro energético para el usuario final. 
+          tr
+            td Reciclabilidad 
+            td(colspan="2") Facilita la reutilización de materiales al final del ciclo de vida del producto, promoviendo la economía circular. 
+            td(colspan="2") Una marca de bebidas utiliza botellas 100% reciclables y promueve su recolección para reincorporarlas en nuevos procesos productivos. 
+          tr
+            td Durabilidad 
+            td(colspan="2") Extiende la vida útil del producto, reduciendo la necesidad de reemplazo y disminuyendo el impacto ambiental. 
+            td(colspan="2") Una empresa de calzado diseña productos resistentes que requieren menor reemplazo, reduciendo el consumo y generación de residuos. 
 
     .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.z-2
@@ -246,12 +258,11 @@
     
     separador 
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.5.	#[em Ecofriendly]
+      h2 2.5	#[em Ecofriendly]
 
-    p El término #[em ecofriendly] hace referencia a productos, servicios o prácticas que generan un bajo impacto ambiental durante su ciclo de vida, este concepto se ha convertido en un criterio relevante para los consumidores, quienes buscan alternativas que contribuyan a la protección del entorno. En el contexto comercial, lo ecofriendly no solo responde a una tendencia, sino a una transformación en la forma en que las empresas diseñan y comunican su oferta.
+    p.mb-4.z-2 El término #[em ecofriendly] hace referencia a productos, servicios o prácticas que generan un bajo impacto ambiental durante su ciclo de vida, este concepto se ha convertido en un criterio relevante para los consumidores, quienes buscan alternativas que contribuyan a la protección del entorno. En el contexto comercial, lo ecofriendly no solo responde a una tendencia, sino a una transformación en la forma en que las empresas diseñan y comunican su oferta.
 
-
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-sm-6.col-lg-3
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema2/18.png", alt="" data-aos="zoom-in-down")
@@ -297,7 +308,7 @@
 
     separador
     #t_2_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.6.	Economía circular
+      h2 2.6	Economía circular
 
     img(data-aos="fade-up")(src="@/assets/curso/tema2/23.png", alt="")
     
@@ -335,7 +346,18 @@
             td Reducir
             td(colspan="2") Minimiza el uso de recursos y la generación de residuos desde la etapa de diseño del producto.	
             td(colspan="2") Una empresa de alimentos elimina empaques innecesarios y reduce el tamaño del envase, disminuyendo materiales y costos de producción.
-          
+          tr
+            td Reutilizar 
+            td(colspan="2") Promueve el uso prolongado de los productos mediante su reparación o reacondicionamiento. 
+            td(colspan="2") Una marca de tecnología ofrece programas de reacondicionamiento de equipos usados para extender su vida útil y volver a comercializarlos. 
+          tr
+            td Reciclar 
+            td(colspan="2") Permite recuperar materiales para reincorporarlos en nuevos procesos productivos, reduciendo el impacto ambiental. 
+            td(colspan="2") Una empresa textil utiliza fibras recicladas provenientes de prendas usadas para fabricar nuevas colecciones sostenibles. 
+          tr
+            td Regenerar 
+            td(colspan="2") Busca restaurar los sistemas naturales, integrando prácticas que contribuyen al equilibrio ambiental. 
+            td(colspan="2") Una empresa agrícola implementa cultivos regenerativos que mejoran la calidad del suelo y promueven la biodiversidad en sus procesos productivos. 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-xl-10
@@ -365,9 +387,9 @@
                   p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica la economía circular como un modelo basado en la reducción, reutilización y reciclaje de recursos, contrastándolo con el modelo lineal tradicional.
 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.d-block(:href="obtenerLink('/downloads/Sintesis.pdf')"  target="_blank")
-                    span Ir al recurso
-                    i.fas.fa-file-pdf
+                  a.boton.color-acento-botones.d-block(href="www.youtube.com/watch?v=wc_65-yf6zU"  target="_blank")
+                    span Enlace
+                    i.fas.fa-file-video
 
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-10
@@ -379,9 +401,6 @@
               h4 Cita de reflexión 
               p.mb-4.mb-lg-0 “Ser un consumidor consciente exige coherencia entre lo que se piensa, se valora y se decide, reflejando integridad en cada elección que impacta la sociedad y el entorno.”
 
-
-
-
 </template>
 
 <script>
@@ -390,14 +409,6 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

@@ -76,9 +76,9 @@
                   h4 Principales características de la segmentación de mercado.
                   p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que describe características clave de segmentación de mercado, como medible, accesible, sustancial y accionable, para orientar estrategias comerciales efectivas. 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.d-block(:href="obtenerLink('/downloads/Sintesis.pdf')"  target="_blank")
-                    span Ir al recurso
-                    i.fas.fa-file-pdf
+                  a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=dmXouR4IVT8 "  target="_blank")
+                    span Enlace
+                    i.fas.fa-file-video
     
     .titulo-sexto.color-acento-contenido.mb-5
       h5 Tabla 4.
@@ -96,6 +96,18 @@
             td Demográfica
             td(colspan="2") Clasifica a los consumidores según edad, género, ingresos y nivel educativo, permitiendo identificar patrones básicos de consumo.	
             td(colspan="2") Una empresa de productos ecológicos dirige su oferta a jóvenes profesionales con ingresos medios interesados en consumo responsable.
+          tr
+            td Geográfica 
+            td(colspan="2") Divide el mercado según ubicación, clima o región, facilitando la adaptación de la oferta a contextos específicos. 
+            td(colspan="2") Una marca de bebidas sostenibles adapta sus productos según regiones cálidas o frías, considerando hábitos de consumo locales. 
+          tr
+            td Psicográfica 
+            td(colspan="2") Analiza valores, estilo de vida y actitudes del consumidor, siendo clave para identificar consumidores sostenibles. 
+            td(colspan="2") Una empresa de cosméticos naturales enfoca su comunicación en consumidores que valoran bienestar, salud y cuidado ambiental. 
+          tr
+            td Conductual 
+            td(colspan="2") Se basa en hábitos de compra, frecuencia y beneficios buscados, permitiendo diseñar estrategias más precisas. 
+            td(colspan="2") Una tienda ecológica identifica clientes frecuentes interesados en productos orgánicos y les ofrece programas de fidelización sostenibles. 
 
     .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.z-2
@@ -113,7 +125,7 @@
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3 Estrategias
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-4.col-sm-2.col-lg-1
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema3/6.svg", alt="" data-aos="zoom-in-down")
@@ -167,7 +179,7 @@
             .col-lg-8
               h4 Pregunta de aplicación
               p.mb-4.mb-lg-0 ¿Cómo puede una estrategia de diferenciación basada en sostenibilidad influir en la decisión de compra del consumidor?
-            .col-6.col-sm-4.co.d-none.d-lg-blockl-lg-3
+            .col-6.col-sm-4.col-lg-3
               figure.position-relative
                 img.imagen-inf(src="@/assets/curso/common/world-question.png", alt="")
 
@@ -258,6 +270,20 @@
             td Análisis de mercado
             td(colspan="2") Permite estudiar la oferta, la demanda y la competencia, identificando oportunidades y riesgos en el entorno comercial.	
             td(colspan="2") Una empresa de productos ecológicos analiza la competencia local y detecta baja oferta sostenible, identificando una oportunidad de mercado.
+          tr
+            td Análisis de viabilidad 
+            td(colspan="2") Evalúa si una propuesta comercial es rentable y sostenible, considerando costos, ingresos y condiciones del mercado. 
+            td(colspan="2") Un emprendimiento evalúa costos de producción de empaques biodegradables y determina que es viable para un segmento premium. 
+          tr
+            td #[em Benchmarking]
+            td(colspan="2") Compara prácticas y resultados con empresas del sector, identificando oportunidades de mejora y diferenciación. 
+            td(colspan="2") Una empresa revisa estrategias de marcas sostenibles líderes y adapta buenas prácticas para mejorar su posicionamiento. 
+          tr
+            td Análisis del consumidor 
+            td(colspan="2") Examina comportamientos, necesidades y preferencias, facilitando la toma de decisiones centradas en el cliente. 
+            td(colspan="2") Una marca realiza encuestas y descubre que sus clientes valoran productos sin químicos, ajustando su oferta comercial. 
+
+
         
     .row.justify-content-center.align-items-center.z-2
       .col-xl-10
@@ -268,7 +294,7 @@
             .col-lg-8
               h4 Pregunta de aplicación
               p.mb-4.mb-lg-0 ¿Qué factores deben considerarse al evaluar un segmento de mercado sostenible?
-            .col-6.col-sm-4.co.d-none.d-lg-blockl-lg-3
+            .col-6.col-sm-4.col-lg-3
               figure.position-relative
                 img.imagen-inf(src="@/assets/curso/common/world-question.png", alt="")
 
@@ -328,19 +354,12 @@
 
     separador
     #t_3_7.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.7	Conclusiones
-
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
-      .col-lg-9
-        p.mb-0 En el contexto sostenible, el análisis del mercado permite identificar oportunidades comerciales alineadas con la sostenibilidad y diseñar propuestas que respondan a contextos específicos. La segmentación de mercado facilita la identificación de consumidores verdes y la construcción de propuestas comerciales diferenciadas. Las estrategias de mercado orientan decisiones comerciales mediante diferenciación, enfoque, liderazgo en costos y valor sostenible para consumidores responsables. El procedimiento de identificación de mercado permite reconocer nichos de mercado donde existe demanda potencial para productos o servicios sostenibles. Las técnicas de selección y evaluación de mercado permiten analizar diferentes alternativas comerciales para determinar cuáles son viables y estratégicas para la empresa. Las variables del mercado permiten anticipar tendencias y detectar oportunidades comerciales.
-
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
-
+      h2 3.7 Proceso de implementación
     .bg-botones-a10.mb-5(data-aos="fade-up").z-2
       .row.justify-content-center.align-items-center
         .col-lg-5
           figure
-            img(src='@/assets/curso/tema3/19.png', alt='')
+            img(src='@/assets/curso/tema3/18.png', alt='')
         .col-lg
           .p-4
             p.mb-0(data-aos="fade-up") El proceso de implementación de estrategias de mercado consiste en llevar a la práctica las decisiones comerciales definidas a partir del análisis del entorno, este proceso implica coordinar recursos, definir acciones concretas y ejecutar estrategias orientadas al cumplimiento de objetivos comerciales, la implementación debe garantizar coherencia entre la propuesta de valor y las prácticas reales de la empresa.
@@ -357,12 +376,12 @@
 
     separador
     #t_3_8.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.8	Conclusiones
+      h2 3.8	Tipologías 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-4.col-sm-2.col-lg-1
         figure
-          img.mb-4.mb-lg-0(src="@/assets/curso/tema3/20.svg", alt="" data-aos="zoom-in-down")
+          img.mb-4.mb-lg-0.imgw-55(src="@/assets/curso/tema3/20.svg", alt="" data-aos="zoom-in-down")
       .col-lg-11
         p.mb-0 Las tipologías de mercado permiten clasificar los diferentes tipos de mercados según sus características, facilitando su análisis y comprensión, esta clasificación es útil para identificar condiciones específicas que influyen en la comercialización de productos; en el contexto sostenible, las tipologías permiten reconocer mercados donde la sostenibilidad es un factor determinante en la decisión de compra.
 
@@ -378,9 +397,9 @@
                   h4 Tipos de mercado según el producto.
                   p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica tipos de mercado según producto: consumo, uso, industrial, servicios y financieros, diferenciando características y aplicación en contextos comerciales.
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.d-block(:href="obtenerLink('/downloads/Sintesis.pdf')"  target="_blank")
-                    span Ir al recurso
-                    i.fas.fa-file-pdf
+                  a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=EmGQqh0hoNc"  target="_blank")
+                    span Enlace
+                    i.fas.fa-file-video
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-xl-10
         .bg-audio.rounded-5.overflow-hidden.p-4.p-lg-0
@@ -406,13 +425,6 @@
               h4 Cita de reflexión 
               p.mb-4.mb-lg-0 “Actuar con integridad en el mercado implica tomar decisiones responsables, considerando no solo el beneficio propio, sino también el impacto que se genera en los demás y en el entorno.”
 
-
-
-
-
-
-
-
 </template>
 
 <script>
@@ -421,14 +433,6 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

@@ -51,12 +51,6 @@ const router = createRouter({
           component: () =>
             import(/* webpackChunkName: "tema4" */ '../views/Tema4.vue'),
         },
-        {
-          path: 'tema5',
-          name: 'tema5',
-          component: () =>
-            import(/* webpackChunkName: "tema5" */ '../views/Tema5.vue'),
-        },
       ],
     },
     {
@@ -87,31 +81,53 @@ const router = createRouter({
       component: Creditos,
     },
   ],
-  scrollBehavior(to, from) {
-    if (to.hash) {
-      const newRoute = {
-        el: to.hash,
-        top: 100,
-        behavior: 'smooth',
-      }
-      if (to.name === from.name) {
-        return newRoute
-      } else {
-        return new Promise((resolve) => {
-          setTimeout(() => {
-            resolve(newRoute)
-          }, 500)
-        })
-      }
-    } else {
-      setTimeout(() => {
-        window.scrollTo({
-          left: 0,
-          top: 0,
-          behavior: 'auto',
-        })
-      }, 100)
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
     }
+    if (to.hash) {
+      const HEADER_OFFSET = 100
+
+      return new Promise((resolve) => {
+        let timer = null
+        const performScroll = () => {
+          cleanup()
+
+          let targetEl = null
+          try {
+            targetEl = document.querySelector(to.hash)
+          } catch {
+            targetEl = document.getElementById(to.hash.replace('#', ''))
+          }
+
+          if (!targetEl) {
+            return resolve({ top: 0 })
+          }
+
+          const top =
+            targetEl.getBoundingClientRect().top +
+            window.scrollY -
+            HEADER_OFFSET
+          resolve({ top, behavior: 'smooth' })
+        }
+
+        const cleanup = () => {
+          if (observer) observer.disconnect()
+          if (timer) clearTimeout(timer)
+        }
+
+        const observer = new ResizeObserver(() => {
+          if (timer) clearTimeout(timer)
+          timer = setTimeout(performScroll, 60)
+        })
+        observer.observe(document.body)
+        setTimeout(() => {
+          cleanup()
+          performScroll()
+        }, 500)
+      })
+    }
+    return { top: 0 }
   },
 })
 

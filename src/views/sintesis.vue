@@ -19,7 +19,7 @@
     .row.justify-content-center
       .col-lg-12
         figure
-          img.mb-5(src="@/assets/curso/sintesis.svg", alt="")
+          img.mb-5(src="@/assets/curso/sintesis.svg", alt="la ilustración muestra la estructura jerárquica que sintetiza el contenido del componente formativo “Perfil del cliente”, el cual se organiza en cuatro unidades. Inicia con objetivos desarrollo sostenible (sostenibilidad), en donde se desarrolla tipos, aplicación y marco normativo. El capítulo dos corresponde a consumidor verde, allí se desarrollan el contenido sobre tipos, sostenibilidad, ciclo de vida del producto, ecodiseño, ecofriendly y economía circular. El capítulo tres corresponde a mercado, en donde se aborda su concepto, segmentación, estrategias, procedimiento de identificación, técnicas de selección y de evaluación, variables y culmina con proceso de implementación, y tipologías. Por último, está el capítulo de prospección, donde se desarrollan sus objetivos, métodos, herramientas y técnicas.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

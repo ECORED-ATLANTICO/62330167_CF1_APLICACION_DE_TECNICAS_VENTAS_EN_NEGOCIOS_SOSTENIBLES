@@ -40,9 +40,9 @@
                   h4 Qué son los objetivos de Desarrollo Sostenible? <br> | Agenda 2030 | Educación Ambiental Digital
                   p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica el origen de los Objetivos de Desarrollo Sostenible dentro de la Agenda 2030, detallando sus 17 objetivos y su propósito de abordar problemáticas globales como la pobreza, la desigualdad y el cambio climático.
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.d-block(:href="obtenerLink('/downloads/Sintesis.pdf')"  target="_blank")
-                    span Ir al recurso
-                    i.fas.fa-file-pdf
+                  a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=twMRJ6a-j7A"  target="_blank")
+                    span Enlace
+                    i.fas.fa-file-video
 
     p.mb-5.z-2 A continuación, se presenta una clasificación de los ODS que facilita su comprensión, permitiendo identificar las temáticas que comparten, las relaciones entre ellos y su contribución conjunta al cumplimiento de la Agenda 2030. Esta organización favorece una visión integral y evidencia cómo cada objetivo complementa a los demás para impulsar un desarrollo más justo, inclusivo y sostenible.
 
@@ -98,7 +98,7 @@
     separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.2 aplicación
+      h2 1.2 Aplicación
 
     .row.justify-content-center.align-items-center.mb-4
       .col-sm-6.col-lg-3
@@ -217,7 +217,7 @@
               img.mb-4.mb-lg-0(src="@/assets/curso/common/quote.png", alt="")
             .col-lg-8
               h4 Cita de reflexión 
-              p.mb-4.mb-lg-0 ¿Cómo influye la clasificación de los ODS en la identificación de oportunidades comerciales en un mercado específico?
+              p.mb-4.mb-lg-0 “Comprender la sostenibilidad no solo implica cuidar el entorno, sino actuar con responsabilidad integral, reconociendo que cada decisión personal impacta el bienestar colectivo y el equilibrio del planeta.” 
 
   </template>
 
@@ -227,14 +227,6 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

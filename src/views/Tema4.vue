@@ -151,7 +151,6 @@
             p.mb-0 Facilitan la identificación de clientes potenciales a partir de sus intereses, comportamientos y participación en contenidos.
           .tarjeta.p-4(titulo="Plataformas digitales")
             p.mb-0 Facilitan la identiases dficación de clientes potenciales a partir de sus intereses, comportamientos y participación en contenidos.
-
       .col-sm-6.col-lg-3.d-none.d-xl-block
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/11.png", alt="")
@@ -248,9 +247,6 @@
             .col-lg-8
               h4 Cita de reflexión 
               p.mb-4.mb-lg-0 “La verdadera integridad en la gestión comercial se evidencia al reconocer al otro con respeto, transparencia y responsabilidad, construyendo relaciones basadas en confianza y propósito.”
-
-
-
 
 </template>
 

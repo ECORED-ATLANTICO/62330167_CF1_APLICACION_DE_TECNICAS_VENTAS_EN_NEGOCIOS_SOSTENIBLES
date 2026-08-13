@@ -49,11 +49,10 @@ figcaption, table caption
   background-color: $color-secundario-s5 !important
   
 .banner-principal .tarjeta
-  background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
-  @media screen and (min-width: $bp-min-sm)
+  @media screen and (max-width: $bp-max-md)
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-  @media screen and (min-width: $bp-min-lg)
-    background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
 
 .text-end 
     text-align: left !important
@@ -143,6 +142,10 @@ figcaption, table caption
   width: 125px
   margin: 0 auto
 
+.imgw-160
+  width: 160px
+  margin: 0 auto
+  
 .imgw-200
   width: 200px
   margin: 0 auto
@@ -233,9 +236,11 @@ figcaption, table caption
     color: $white
     transition: all 0.3s ease-out
   .acordion__activo
-    background-color: $color-acento-contenido-a5
+    background-color: $color-primario-p5
     transition: all 0.3s ease-out
-
+  &__accion__btn--b
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
 .tabla-a
   &--text-left
     td

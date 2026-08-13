@@ -11,13 +11,13 @@
       .col-lg-9
         p La prospección es el proceso mediante el cual las empresas identifican y seleccionan clientes potenciales, permitiendo orientar sus esfuerzos comerciales hacia oportunidades reales de negocio. 
         p En el contexto de los negocios sostenibles, la prospección adquiere un valor estratégico al facilitar la identificación de consumidores interesados en propuestas responsables. 
-        .p-4.py-3.bg-secundario-s5.rounded-4
+        .p-4.py-3.py-lg-1.bg-secundario-s5.rounded-4.mb-4.mb-lg-0
           .row.justify-content-center.align-items-center
-            .col-lg-10
-              p.mb-4.mb-lg-0 Este capítulo aborda los objetivos, métodos, herramientas y técnicas de prospección, orientados a fortalecer la toma de decisiones en procesos comerciales sostenibles.
-            .col-2.col-sm-1.d-none.d-lg-block
+            .col-lg-9
+              p.mb-0 Este capítulo aborda los objetivos, métodos, herramientas y técnicas de prospección, orientados a fortalecer la toma de decisiones en procesos comerciales sostenibles.
+            .col-3.d-none.d-lg-block
               figure
-                img(src="@/assets/curso/deco.svg", alt="")
+                img.imgw-160(src="@/assets/curso/tema4/13.svg", alt="")
       .col-sm-6.col-lg-3
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/1.png", alt="")
@@ -43,11 +43,11 @@
 
     .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
-      .col-sm-8.col-lg-4
+      .col-sm-8.col-lg-4.d-none.d-xl-block
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema4/3.png", alt="" data-aos="zoom-in-down")
-      .col-lg-8
-        SlyderF(columnas="col-sm-12 col-lg-10 col-xl-6")
+      .col-xl-8
+        SlyderF(columnas="col-sm-12 col-lg-6")
           .tarjeta.bg-cards.p-4.rounded-4.h-100
             img.mb-4.imgw-105(src="@/assets/curso/tema4/4.svg")
             h4.text-center.mb-4 Identificación de clientes potenciales
@@ -125,7 +125,7 @@
         .bg-gradiente-gy.p-4.rounded-5
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img.mb-4.mb-lg-0(src="@/assets/curso/common/qmark.svg", alt="")
+              img.mb-4.mb-lg-0(src="@/assets/curso/common/qmark.png", alt="")
             .col-lg-8
               h4 Pregunta de aplicación
               p.mb-4.mb-lg-0 ¿Qué método de prospección sería más efectivo para identificar consumidores sostenibles en un entorno digital?
@@ -134,7 +134,7 @@
                 img.imagen-inf(src="@/assets/curso/common/world-question.png", alt="")
 
     separador
-    #t_4o-segundo.color-acento-contenido(data-aos="flip-up")
+    #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.3 Herramientas
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
@@ -156,13 +156,13 @@
       .col-xl-9
         TabsA.color-primario
           .tarjeta.p-4(titulo="CRM")
-            p.mb-0 Facilitan la identificación de clientes potenciales a partir de sus intereses, comportamientos y participación en contenidos.
+            p.mb-0 Permite gestionar la información de clientes, hacer seguimiento a interacciones y optimizar el proceso comercial. 
           .tarjeta.p-4(titulo="Redes sociales")
             p.mb-0 Facilitan la identificación de clientes potenciales a partir de sus intereses, comportamientos y participación en contenidos.
           .tarjeta.p-4(titulo="Bases de datos")
-            p.mb-0 Facilitan la identificación de clientes potenciales a partir de sus intereses, comportamientos y participación en contenidos.
+            p.mb-0 Contienen información estructurada de clientes que permite segmentar el mercado y orientar estrategias comerciales. 
           .tarjeta.p-4(titulo="Plataformas digitales")
-            p.mb-0 Facilitan la identiases dficación de clientes potenciales a partir de sus intereses, comportamientos y participación en contenidos.
+            p.mb-0 Integran herramientas de análisis que permiten identificar tendencias y oportunidades en el mercado.
       .col-sm-6.col-lg-3.d-none.d-xl-block
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/11.png", alt="")

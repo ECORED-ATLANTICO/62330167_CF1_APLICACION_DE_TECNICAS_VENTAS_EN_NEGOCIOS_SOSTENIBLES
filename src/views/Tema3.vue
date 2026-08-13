@@ -17,8 +17,8 @@
     .row.justify-content-center.align-items-center
       .col-4.col-sm-2.col-lg-1
         figure
-          img.mb-4.mb-lg-0.imgw-43(src="@/assets/curso/tema3/2.png", alt="" data-aos="zoom-in-down")
-      .col-lg-11
+          img.mb-4.mb-md-0(src="@/assets/curso/tema3/2.svg", alt="" data-aos="zoom-in-down")
+      .col-sm-10.col-lg-11
         p.mb-0 En el contexto de los negocios sostenibles, comprender su dinámica permite identificar segmentos, necesidades y oportunidades comerciales.
         p.mb-0 Este capítulo aborda los conceptos, procesos y herramientas del mercado, orientados a la toma de decisiones estratégicas que faciliten la identificación de consumidores y el diseño de propuestas comerciales alineadas con la sostenibilidad.
 
@@ -175,7 +175,7 @@
         .bg-gradiente-gy.p-4.rounded-5
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img.mb-4.mb-lg-0(src="@/assets/curso/common/qmark.svg", alt="")
+              img.mb-4.mb-lg-0(src="@/assets/curso/common/qmark.png", alt="")
             .col-lg-8
               h4 Pregunta de aplicación
               p.mb-4.mb-lg-0 ¿Cómo puede una estrategia de diferenciación basada en sostenibilidad influir en la decisión de compra del consumidor?
@@ -211,11 +211,11 @@
     p.mb-5.z-2 Etapas para identificar oportunidades comerciales mediante recolección, análisis, segmentación e interpretación de información del mercado y consumidores.
 
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
-      .col-sm-6.col-xl-3
+      .col-sm-4.col-xl-3
         figure
-          img(src="@/assets/curso/tema3/13.png", alt="" data-aos="zoom-in-down")
+          img.mb-4.mb-xl-0(src="@/assets/curso/tema3/13.png", alt="" data-aos="zoom-in-down")
       .col-xl-7
-        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-contenido-a5")
           div(titulo="Recolección de información")
             p.mb-0 Implica obtener datos del mercado, consumidores y tendencias, utilizando fuentes confiables para el análisis comercial.
           div(titulo="Análisis del mercado")
@@ -283,14 +283,12 @@
             td(colspan="2") Examina comportamientos, necesidades y preferencias, facilitando la toma de decisiones centradas en el cliente. 
             td(colspan="2") Una marca realiza encuestas y descubre que sus clientes valoran productos sin químicos, ajustando su oferta comercial. 
 
-
-        
     .row.justify-content-center.align-items-center.z-2
       .col-xl-10
         .bg-gradiente-gy.p-4.rounded-5
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img.mb-4.mb-lg-0(src="@/assets/curso/common/qmark.svg", alt="")
+              img.mb-4.mb-lg-0(src="@/assets/curso/common/qmark.png", alt="")
             .col-lg-8
               h4 Pregunta de aplicación
               p.mb-4.mb-lg-0 ¿Qué factores deben considerarse al evaluar un segmento de mercado sostenible?
@@ -330,13 +328,13 @@
       .col-lg-8.col-xl-7
         TabsA.color-primario
           .tarjeta.p-4(titulo="Económicas")
-            p.mb-0 Facilitan la identificación de clientes potenciales a partir de sus intereses, comportamientos y participación en contenidos.
+            p.mb-0 Incluyen ingresos, precios y capacidad de compra, influyendo en la decisión del consumidor frente a productos sostenibles. 
           .tarjeta.p-4(titulo="Sociales")
-            p.mb-0 Facilitan la identificación de clientes potenciales a partir de sus intereses, comportamientos y participación en contenidos.
+            p.mb-0 Relacionadas con estilos de vida, valores y comportamientos, siendo clave para identificar consumidores verdes. 
           .tarjeta.p-4(titulo="Culturales")
-            p.mb-0 Facilitan la identificación de clientes potenciales a partir de sus intereses, comportamientos y participación en contenidos.
+            p.mb-0 Determinan hábitos y percepciones del consumidor, afectando la aceptación de productos sostenibles en diferentes contextos. 
           .tarjeta.p-4(titulo="Ambientales")
-            p.mb-0 Facilitan la identiases dficación de clientes potenciales a partir de sus intereses, comportamientos y participación en contenidos.
+            p.mb-0 Incluyen regulaciones, impacto ecológico y tendencias sostenibles, influyendo en la oferta y la demanda del mercado.
       .col-sm-6.col-lg-4.col-xl-3.d-none.d-lg-block
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema3/17.png", alt="")

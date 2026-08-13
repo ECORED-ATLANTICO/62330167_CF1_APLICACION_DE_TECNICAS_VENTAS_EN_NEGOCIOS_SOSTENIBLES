@@ -13,13 +13,13 @@
           img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema2/1.png", alt="")
       .col-lg-9
         p El consumidor verde representa un actor clave en los negocios sostenibles, ya que sus decisiones de compra están influenciadas por criterios ambientales, sociales y éticos. 
-        .p-4.py-3.bg-secundario-s5.rounded-4.mb-3
+        .p-4.py-3.py-lg-1.bg-secundario-s5.rounded-4.mb-3
           .row.justify-content-center.align-items-center
             .col-lg-10
-              p.mb-4.mb-lg-0 Comprender sus características, comportamientos y motivaciones permite a las empresas diseñar estrategias comerciales coherentes con las nuevas dinámicas del mercado. 
-            .col-2.col-sm-1.d-none.d-lg-block
+              p.mb-0 Comprender sus características, comportamientos y motivaciones permite a las empresas diseñar estrategias comerciales coherentes con las nuevas dinámicas del mercado. 
+            .col-2.d-none.d-lg-block
               figure
-                img(src="@/assets/curso/deco.svg", alt="")
+                img(src="@/assets/curso/tema2/25.svg", alt="")
         p.mb-0 Este capítulo aborda los tipos de consumidor verde y su relación con la sostenibilidad, facilitando la identificación de perfiles y oportunidades comerciales en contextos sostenibles.
 
     Separador
@@ -76,7 +76,7 @@
         .bg-gradiente-gy.p-4.rounded-5
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img.mb-4.mb-lg-0(src="@/assets/curso/common/qmark.svg", alt="")
+              img.mb-4.mb-lg-0(src="@/assets/curso/common/qmark.png", alt="")
             .col-lg-8
               h4 Pregunta de aplicación
               p.mb-4.mb-lg-0 ¿Cómo influye la clasificación de los ODS en la identificación de oportunidades comerciales en un mercado específico?
@@ -136,8 +136,8 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-4.col-sm-2.col-lg-1
         figure
-          img.mb-4.mb-lg-0(src="@/assets/curso/tema2/8.svg", alt="" data-aos="zoom-in-down")
-      .col-lg-11
+          img.mb-4.mb-md-0(src="@/assets/curso/tema2/8.svg", alt="" data-aos="zoom-in-down")
+      .col-sm-10.col-lg-11
         p.mb-0 Desde una perspectiva comercial, el ciclo de vida del producto influye en la percepción del consumidor, quien evalúa no solo el producto final, sino todo su proceso. Por ejemplo, un cliente puede preferir productos con menor impacto ambiental en su fabricación o con empaques reciclables. Esto convierte el ciclo de vida en un elemento estratégico para diferenciar la oferta y fortalecer la propuesta de valor en mercados sostenibles.
 
     .bg-botones-a10.mb-5(data-aos="fade-up")
@@ -157,11 +157,11 @@
     p.mb-5.z-2 Etapas del ciclo de vida del producto, desde extracción hasta disposición final, analizando impacto ambiental en cada fase.
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
-      .col-sm-8.col-lg-4
+      .col-sm-8.col-lg-4.d-none.d-xl-block
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema2/10.png", alt="" data-aos="zoom-in-down")
-      .col-lg-8
-        SlyderF(columnas="col-sm-12 col-lg-10 col-xl-6")
+      .col-xl-8
+        SlyderF(columnas="col-sm-12 col-lg-6")
           .tarjeta.bg-cards.p-4.rounded-4.h-100
             img.mb-4.imgw-105(src="@/assets/curso/tema2/11.svg")
             h4.text-center.mb-4 Extracción de materias primas
@@ -188,7 +188,7 @@
         .bg-gradiente-gy.p-4.rounded-5
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img.mb-4.mb-lg-0(src="@/assets/curso/common/qmark.svg", alt="")
+              img.mb-4.mb-lg-0(src="@/assets/curso/common/qmark.png", alt="")
             .col-lg-8
               h4 Pregunta de aplicación
               p.mb-4.mb-lg-0 ¿Cómo puede el análisis del ciclo de vida del producto influir en la decisión de compra de un consumidor sostenible?
@@ -211,8 +211,8 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-4.col-sm-2.col-lg-1
         figure
-          img.mb-4.mb-lg-0(src="@/assets/curso/tema2/17.svg", alt="" data-aos="zoom-in-down")
-      .col-lg-11
+          img.mb-4.mb-md-0(src="@/assets/curso/tema2/17.svg", alt="" data-aos="zoom-in-down")
+      .col-sm-10.col-lg-11
         p.mb-0 Desde el punto de vista del consumidor, el ecodiseño influye en la percepción del producto, ya que incorpora atributos como reciclabilidad, eficiencia energética y menor impacto ambiental, esto genera una ventaja competitiva para las empresas que adoptan este enfoque, permitiéndoles diferenciarse en mercados donde la sostenibilidad es un factor clave en la decisión de compra.
 
     .titulo-sexto.color-acento-contenido
@@ -387,7 +387,8 @@
                   p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica la economía circular como un modelo basado en la reducción, reutilización y reciclaje de recursos, contrastándolo con el modelo lineal tradicional.
 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.d-block(href="www.youtube.com/watch?v=wc_65-yf6zU"  target="_blank")
+                  a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=wc_65-yf6zU" target="_blank" rel="noopener noreferrer")
+             
                     span Enlace
                     i.fas.fa-file-video
 

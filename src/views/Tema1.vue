@@ -9,7 +9,7 @@
 
     p.mb-4 Los Objetivos de Desarrollo Sostenible (ODS) constituyen un marco global orientado a equilibrar el crecimiento económico, la inclusión social y la protección ambiental. 
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario-p10.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema1/1.png')})`}"
       )
@@ -24,9 +24,9 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-4.col-sm-2.col-lg-1
         figure
-          img.mb-4.mb-lg-0(src="@/assets/curso/tema1/2.svg", alt="" data-aos="zoom-in-down")
-      .col-lg-11
-        p Los Objetivos de Desarrollo Sostenible se clasifican en tres dimensiones fundamentales: social, económica y ambiental, esta clasificación permite comprender cómo las acciones humanas impactan de manera integral el entorno. En el ámbito empresarial, esta estructura facilita la alineación de estrategias comerciales con criterios sostenibles, promoviendo decisiones que no solo buscan rentabilidad, sino también bienestar social y conservación ambiental en diferentes contextos productivos.
+          img.mb-4.mb-md-0(src="@/assets/curso/tema1/2.svg", alt="" data-aos="zoom-in-down")
+      .col-sm-10.col-lg-11
+        p.mb-0 Los Objetivos de Desarrollo Sostenible se clasifican en tres dimensiones fundamentales: social, económica y ambiental, esta clasificación permite comprender cómo las acciones humanas impactan de manera integral el entorno. En el ámbito empresarial, esta estructura facilita la alineación de estrategias comerciales con criterios sostenibles, promoviendo decisiones que no solo buscan rentabilidad, sino también bienestar social y conservación ambiental en diferentes contextos productivos.
         
     .row.justify-content-center
       .col-xl-10
@@ -87,7 +87,7 @@
         .bg-gradiente-gy.p-4.rounded-5
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img.mb-4.mb-lg-0(src="@/assets/curso/common/qmark.svg", alt="")
+              img.mb-4.mb-lg-0(src="@/assets/curso/common/qmark.png", alt="")
             .col-lg-8
               h4 Pregunta de aplicación
               p.mb-4.mb-lg-0 ¿Cómo influye la clasificación de los ODS en la identificación de oportunidades comerciales en un mercado específico?

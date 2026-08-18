@@ -80,7 +80,7 @@
               img.mb-4.mb-lg-0(src="@/assets/curso/common/qmark.png", alt="")
             .col-lg-8
               h4 Pregunta de aplicación
-              p.mb-4.mb-lg-0 ¿Cómo influye la clasificación de los ODS en la identificación de oportunidades comerciales en un mercado específico?
+              p.mb-4.mb-lg-0 ¿Cómo influye el tipo de consumidor verde en la forma en que una empresa diseña su propuesta comercial?
             .col-6.col-sm-4.col-lg-3
               figure.position-relative
                 img.imagen-inf(src="@/assets/curso/common/world-question.png", alt="")
@@ -240,7 +240,7 @@
           tr
             td Reciclabilidad 
             td(colspan="2") Facilita la reutilización de materiales al final del ciclo de vida del producto, promoviendo la economía circular. 
-            td(colspan="2") Una marca de bebidas utiliza botellas 100% reciclables y promueve su recolección para reincorporarlas en nuevos procesos productivos. 
+            td(colspan="2") Una marca de bebidas utiliza botellas 100 % reciclables y promueve su recolección para reincorporarlas en nuevos procesos productivos. 
           tr
             td Durabilidad 
             td(colspan="2") Extiende la vida útil del producto, reduciendo la necesidad de reemplazo y disminuyendo el impacto ambiental. 
@@ -263,7 +263,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
         h3.titulo-con-imagen__texto #[em Ecofriendly]
 
-    p.mb-4.z-2 El término #[em ecofriendly] hace referencia a productos, servicios o prácticas que generan un bajo impacto ambiental durante su ciclo de vida, este concepto se ha convertido en un criterio relevante para los consumidores, quienes buscan alternativas que contribuyan a la protección del entorno. En el contexto comercial, lo ecofriendly no solo responde a una tendencia, sino a una transformación en la forma en que las empresas diseñan y comunican su oferta.
+    p.mb-4.z-2 El término #[em ecofriendly] hace referencia a productos, servicios o prácticas que generan un bajo impacto ambiental durante su ciclo de vida, este concepto se ha convertido en un criterio relevante para los consumidores, quienes buscan alternativas que contribuyan a la protección del entorno. En el contexto comercial, lo #[em ecofriendly] no solo responde a una tendencia, sino a una transformación en la forma en que las empresas diseñan y comunican su oferta.
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-sm-6.col-lg-3
@@ -273,26 +273,26 @@
         .p-4.py-3.bg-secundario-s5.rounded-4.mb-3
           .row.justify-content-center.align-items-center
             .col-lg-9
-              p.mb-4.mb-lg-0 Lo ecofriendly influye en la decisión de compra al asociarse con beneficios ambientales y responsabilidad social, sin embargo, este atributo debe estar respaldado por prácticas reales, ya que los consumidores actuales son más críticos y buscan información verificable. Empresas que utilizan este enfoque de manera transparente logran fortalecer su credibilidad y posicionarse en segmentos conscientes del mercado.
+              p.mb-4.mb-lg-0 Lo #[em ecofriendly] influye en la decisión de compra al asociarse con beneficios ambientales y responsabilidad social, sin embargo, este atributo debe estar respaldado por prácticas reales, ya que los consumidores actuales son más críticos y buscan información verificable. Empresas que utilizan este enfoque de manera transparente logran fortalecer su credibilidad y posicionarse en segmentos conscientes del mercado.
             .col-6.col-sm-3
               figure
                 img.imgw-125(data-aos="fade-down-right", src="@/assets/curso/common/deco-gray.svg", alt="")
 
-        p.mb-0 Un ejemplo empresarial es el de marcas que sustituyen plásticos por materiales biodegradables en sus empaques. Este cambio no solo reduce el impacto ambiental, sino que también responde a las expectativas del consumidor sostenible. Así, lo ecofriendly se convierte en un elemento diferenciador que conecta la sostenibilidad con la propuesta de valor, generando ventajas competitivas en el mercado.
+        p.mb-0 Un ejemplo empresarial es el de marcas que sustituyen plásticos por materiales biodegradables en sus empaques. Este cambio no solo reduce el impacto ambiental, sino que también responde a las expectativas del consumidor sostenible. Así, lo #[em ecofriendly] se convierte en un elemento diferenciador que conecta la sostenibilidad con la propuesta de valor, generando ventajas competitivas en el mercado.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
-        h3.titulo-con-imagen__texto Características de productos ecofriendly
+        h3.titulo-con-imagen__texto Características de productos #[em ecofriendly]
 
-    p.mb-5.z-2 Características ecofriendly enfocadas en impacto ambiental reducido, materiales sostenibles, producción responsable y transparencia para fortalecer la confianza del consumidor.
+    p.mb-5.z-2 Características #[em ecofriendly] enfocadas en impacto ambiental reducido, materiales sostenibles, producción responsable y transparencia para fortalecer la confianza del consumidor.
 
     .row.justify-content-center.align-items-stretch.z-2.mb-5
       .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-xl-0
         .tarjeta.bg-cards.p-4.rounded-4.h-100
           img.mb-4.imgw-105(src="@/assets/curso/tema2/19.svg")
           h4.text-center.mb-4 Bajo impacto ambiental
-          p.text-center.mb-0 Los productos ecofriendly minimizan la contaminación y el uso de recursos naturales en su fabricación, distribución y consumo.
+          p.text-center.mb-0 Los productos #[em ecofriendly] minimizan la contaminación y el uso de recursos naturales en su fabricación, distribución y consumo.
       .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-xl-0
         .tarjeta.bg-cards.p-4.rounded-4.h-100
           img.mb-4.imgw-105(src="@/assets/curso/tema2/20.svg")

@@ -37,7 +37,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4 Qué son los objetivos de Desarrollo Sostenible? <br> | Agenda 2030 | Educación Ambiental Digital
+                  h4 Qué son los Objetivos de Desarrollo Sostenible? <br> | Agenda 2030 | Educación Ambiental Digital
                   p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica el origen de los Objetivos de Desarrollo Sostenible dentro de la Agenda 2030, detallando sus 17 objetivos y su propósito de abordar problemáticas globales como la pobreza, la desigualdad y el cambio climático.
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=twMRJ6a-j7A"  target="_blank")
@@ -127,7 +127,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
         h3.titulo-con-imagen__texto Aplicación empresarial de los ODS
 
-    p.mb-4 Aplicación empresarial de los ODS en producción, comercialización y consumo, integrando sostenibilidad en procesos, estrategias y decisiones responsables
+    p.mb-4 Aplicación empresarial de los ODS en producción, comercialización y consumo, integrando sostenibilidad en procesos, estrategias y decisiones responsables.
 
     .row.justify-content-center.align-items-stretch.mb-5
       .col-sm-6.col-lg-4.col-xl-3.mb-4.mb-lg-0

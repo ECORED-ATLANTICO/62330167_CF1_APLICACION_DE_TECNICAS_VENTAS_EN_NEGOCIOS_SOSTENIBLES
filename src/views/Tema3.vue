@@ -60,8 +60,8 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-4.col-sm-2.col-lg-1
         figure
-          img.mb-4.mb-lg-0(src="@/assets/curso/tema3/5.svg", alt="" data-aos="zoom-in-down")
-      .col-lg-11
+          img.mb-4.mb-md-0(src="@/assets/curso/tema3/5.svg", alt="" data-aos="zoom-in-down")
+      .col-sm-10.col-lg-11
         p.mb-0 Existen diferentes criterios de segmentación, como demográficos, geográficos, psicográficos y conductuales, en los negocios sostenibles, los criterios psicográficos y conductuales son especialmente relevantes, ya que permiten identificar valores, estilos de vida y hábitos de consumo relacionados con la sostenibilidad, esto facilita diseñar estrategias más precisas y alineadas con las expectativas del consumidor.
 
     .row.justify-content-center
@@ -128,8 +128,8 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-4.col-sm-2.col-lg-1
         figure
-          img.mb-4.mb-lg-0(src="@/assets/curso/tema3/6.svg", alt="" data-aos="zoom-in-down")
-      .col-lg-11
+          img.mb-4.mb-md-0(src="@/assets/curso/tema3/6.svg", alt="" data-aos="zoom-in-down")
+      .col-sm-10.col-lg-11
         p.mb-0 Las estrategias de mercado son acciones planificadas que permiten a las empresas posicionar sus productos o servicios en función de las condiciones del entorno y las características del consumidor, estas estrategias orientan la toma de decisiones comerciales, facilitando la adaptación de la oferta a las necesidades del mercado. En contextos sostenibles, las estrategias deben integrar criterios ambientales y sociales para generar valor diferencial.
 
     .bg-botones-a10.mb-5(data-aos="fade-up").z-2

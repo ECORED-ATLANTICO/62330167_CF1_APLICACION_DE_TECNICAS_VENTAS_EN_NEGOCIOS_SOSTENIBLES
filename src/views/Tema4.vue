@@ -140,8 +140,8 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-4.col-sm-2.col-lg-1
         figure
-          img.mb-4.mb-lg-0(src="@/assets/curso/tema4/10.png", alt="" data-aos="zoom-in-down")
-      .col-lg-11
+          img.mb-4.mb-md-0(src="@/assets/curso/tema4/10.png", alt="" data-aos="zoom-in-down")
+      .col-sm-10.col-lg-11
         p Las herramientas de prospección son recursos que permiten recopilar, organizar y analizar información sobre clientes potenciales; estas herramientas facilitan la identificación de oportunidades comerciales, optimizando el proceso de búsqueda de clientes. Entre las herramientas más utilizadas se encuentran los sistemas de gestión de clientes (CRM), las plataformas digitales y las bases de datos, las cuales permiten segmentar el mercado, analizar comportamientos y hacer seguimiento a los prospectos. Por ejemplo, un CRM permite registrar interacciones con clientes y evaluar su nivel de interés en productos sostenibles.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")

@@ -7,7 +7,7 @@
         span 2
       h1 Consumidor verde
 
-    .row.justify-content-center.align-items-center.z-2
+    .row.justify-content-center.align-items-center.z-2.mb-5
       .col-sm-6.col-lg-3
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema2/1.png", alt="")
@@ -22,9 +22,10 @@
                 img(src="@/assets/curso/tema2/25.svg", alt="")
         p.mb-0 Este capítulo aborda los tipos de consumidor verde y su relación con la sostenibilidad, facilitando la identificación de perfiles y oportunidades comerciales en contextos sostenibles.
 
-    Separador
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.1 Tipos
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Tipos
 
     .bg-botones-a10.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
@@ -84,10 +85,10 @@
               figure.position-relative
                 img.imagen-inf(src="@/assets/curso/common/world-question.png", alt="")
 
-    separador
-
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.2 Sostenibilidad
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Sostenibilidad
 
     .row.justify-content-center.align-items-center.mb-4
       .col-sm-6.col-lg-3
@@ -111,7 +112,7 @@
             figure
               img.arbol-img(src="@/assets/curso/common/arbol-ej.png", alt="")
 
-    .row.justify-content-center.align-items-center.z-2
+    .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
         .bg-gradiente-pg.p-4.py-5.rounded-5
           .row.justify-content-center.align-items-center
@@ -122,9 +123,10 @@
               h4 Clave estratégica
               p.mb-0 La sostenibilidad no solo influye en la gestión empresarial, sino que impacta directamente en la decisión de compra del consumidor, quien valora cada vez más productos y servicios responsables con el entorno.
       
-    separador
-    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.3	Ciclo de vida del producto
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Ciclo de vida del producto
 
     img(data-aos="fade-up")(src="@/assets/curso/tema2/7.png", alt="")
     
@@ -183,7 +185,7 @@
             h4.text-center.mb-4 Disposición final
             p.text-center.mb-0 Incluye reciclaje, reutilización o eliminación del producto, evaluando su impacto ambiental al final de su vida útil.
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-xl-10
         .bg-gradiente-gy.p-4.rounded-5
           .row.justify-content-center.align-items-center
@@ -196,10 +198,10 @@
               figure.position-relative
                 img.imagen-inf(src="@/assets/curso/common/world-question.png", alt="")
 
-    separador
-
-    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.4	Ecodiseño
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Ecodiseño
 
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -245,7 +247,7 @@
             td(colspan="2") Una empresa de calzado diseña productos resistentes que requieren menor reemplazo, reduciendo el consumo y generación de residuos. 
 
     .fullwidth-bg.fullwidth-bg--1
-    .row.justify-content-center.align-items-center.z-2
+    .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
         .bg-gradiente-pg.p-4.py-5.rounded-5
           .row.justify-content-center.align-items-center
@@ -255,10 +257,11 @@
             .col-lg-9
               h4 Clave estratégica
               p.mb-0 El ecodiseño convierte la sostenibilidad en una ventaja competitiva tangible.
-    
-    separador 
-    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.5	#[em Ecofriendly]
+     
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto #[em Ecofriendly]
 
     p.mb-4.z-2 El término #[em ecofriendly] hace referencia a productos, servicios o prácticas que generan un bajo impacto ambiental durante su ciclo de vida, este concepto se ha convertido en un criterio relevante para los consumidores, quienes buscan alternativas que contribuyan a la protección del entorno. En el contexto comercial, lo ecofriendly no solo responde a una tendencia, sino a una transformación en la forma en que las empresas diseñan y comunican su oferta.
 
@@ -284,7 +287,7 @@
 
     p.mb-5.z-2 Características ecofriendly enfocadas en impacto ambiental reducido, materiales sostenibles, producción responsable y transparencia para fortalecer la confianza del consumidor.
 
-    .row.justify-content-center.align-items-stretch.z-2
+    .row.justify-content-center.align-items-stretch.z-2.mb-5
       .col-sm-6.col-lg-5.col-xl-3.mb-4.mb-xl-0
         .tarjeta.bg-cards.p-4.rounded-4.h-100
           img.mb-4.imgw-105(src="@/assets/curso/tema2/19.svg")
@@ -306,9 +309,10 @@
           h4.text-center.mb-4 Transparencia
           p.text-center.mb-0 Comunican de forma clara sus atributos sostenibles, generando confianza en el consumidor y facilitando la decisión de compra.
 
-    separador
-    #t_2_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.6	Economía circular
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Economía circular
 
     img(data-aos="fade-up")(src="@/assets/curso/tema2/23.png", alt="")
     

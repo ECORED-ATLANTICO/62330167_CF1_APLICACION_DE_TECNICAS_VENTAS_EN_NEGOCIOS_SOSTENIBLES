@@ -34,23 +34,23 @@ export default {
         numero: '1',
         titulo: 'Objetivos desarrollo sostenible (sostenibilidad)',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Tipos',
-            hash: 't_1_1',
-          },
-          {
-            numero: '1.2',
-            titulo: 'Aplicación',
-            hash: 't_1_2',
-          },
-          {
-            numero: '1.3',
-            titulo: 'Marco normativo',
-            hash: 't_1_3',
-          },
-        ],
+        // subMenu: [
+        //   {
+        //     numero: '1.1',
+        //     titulo: 'Tipos',
+        //     hash: 't_1_1',
+        //   },
+        //   {
+        //     numero: '1.2',
+        //     titulo: 'Aplicación',
+        //     hash: 't_1_2',
+        //   },
+        //   {
+        //     numero: '1.3',
+        //     titulo: 'Marco normativo',
+        //     hash: 't_1_3',
+        //   },
+        // ],
       },
 
       {
@@ -58,114 +58,114 @@ export default {
         numero: '2',
         titulo: 'Consumidor verde',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '2.1',
-            titulo: 'Tipos',
-            hash: 't_2_1',
-          },
-          {
-            numero: '2.2',
-            titulo: 'Sostenibilidad',
-            hash: 't_2_2',
-          },
-          {
-            numero: '2.3',
-            titulo: 'Ciclo de vida del producto',
-            hash: 't_2_3',
-          },
-          {
-            numero: '2.4',
-            titulo: 'Ecodiseño',
-            hash: 't_2_4',
-          },
-          {
-            numero: '2.5',
-            titulo: '<em>Ecofriendly</em>',
-            hash: 't_2_5',
-          },
-          {
-            numero: '2.6',
-            titulo: 'Economía circular',
-            hash: 't_2_6',
-          },
-        ],
+        // subMenu: [
+        //   {
+        //     numero: '2.1',
+        //     titulo: 'Tipos',
+        //     hash: 't_2_1',
+        //   },
+        //   {
+        //     numero: '2.2',
+        //     titulo: 'Sostenibilidad',
+        //     hash: 't_2_2',
+        //   },
+        //   {
+        //     numero: '2.3',
+        //     titulo: 'Ciclo de vida del producto',
+        //     hash: 't_2_3',
+        //   },
+        //   {
+        //     numero: '2.4',
+        //     titulo: 'Ecodiseño',
+        //     hash: 't_2_4',
+        //   },
+        //   {
+        //     numero: '2.5',
+        //     titulo: '<em>Ecofriendly</em>',
+        //     hash: 't_2_5',
+        //   },
+        //   {
+        //     numero: '2.6',
+        //     titulo: 'Economía circular',
+        //     hash: 't_2_6',
+        //   },
+        // ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
         titulo: 'Mercado',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '3.1',
-            titulo: 'Concepto',
-            hash: 't_3_1',
-          },
-          {
-            numero: '3.2',
-            titulo: 'Segmentación',
-            hash: 't_3_2',
-          },
-          {
-            numero: '3.3',
-            titulo: 'Estrategias',
-            hash: 't_3_3',
-          },
-          {
-            numero: '3.4',
-            titulo: 'Procedimiento de identificación',
-            hash: 't_3_4',
-          },
-          {
-            numero: '3.5',
-            titulo: 'Técnicas de selección y de evaluación',
-            hash: 't_3_5',
-          },
-          {
-            numero: '3.6',
-            titulo: 'Variables',
-            hash: 't_3_6',
-          },
-          {
-            numero: '3.7',
-            titulo: 'Proceso de implementación',
-            hash: 't_3_7',
-          },
-          {
-            numero: '3.8',
-            titulo: 'Tipologías',
-            hash: 't_3_8',
-          },
-        ],
+        // subMenu: [
+        //   {
+        //     numero: '3.1',
+        //     titulo: 'Concepto',
+        //     hash: 't_3_1',
+        //   },
+        //   {
+        //     numero: '3.2',
+        //     titulo: 'Segmentación',
+        //     hash: 't_3_2',
+        //   },
+        //   {
+        //     numero: '3.3',
+        //     titulo: 'Estrategias',
+        //     hash: 't_3_3',
+        //   },
+        //   {
+        //     numero: '3.4',
+        //     titulo: 'Procedimiento de identificación',
+        //     hash: 't_3_4',
+        //   },
+        //   {
+        //     numero: '3.5',
+        //     titulo: 'Técnicas de selección y de evaluación',
+        //     hash: 't_3_5',
+        //   },
+        //   {
+        //     numero: '3.6',
+        //     titulo: 'Variables',
+        //     hash: 't_3_6',
+        //   },
+        //   {
+        //     numero: '3.7',
+        //     titulo: 'Proceso de implementación',
+        //     hash: 't_3_7',
+        //   },
+        //   {
+        //     numero: '3.8',
+        //     titulo: 'Tipologías',
+        //     hash: 't_3_8',
+        //   },
+        // ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
         titulo: 'Prospección',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '4.1',
-            titulo: 'Objetivos',
-            hash: 't_4_1',
-          },
-          {
-            numero: '4.2',
-            titulo: 'Métodos',
-            hash: 't_4_2',
-          },
-          {
-            numero: '4.3',
-            titulo: 'Herramientas',
-            hash: 't_4_3',
-          },
-          {
-            numero: '4.4',
-            titulo: 'Técnicas',
-            hash: 't_4_4',
-          },
-        ],
+        // subMenu: [
+        //   {
+        //     numero: '4.1',
+        //     titulo: 'Objetivos',
+        //     hash: 't_4_1',
+        //   },
+        //   {
+        //     numero: '4.2',
+        //     titulo: 'Métodos',
+        //     hash: 't_4_2',
+        //   },
+        //   {
+        //     numero: '4.3',
+        //     titulo: 'Herramientas',
+        //     hash: 't_4_3',
+        //   },
+        //   {
+        //     numero: '4.4',
+        //     titulo: 'Técnicas',
+        //     hash: 't_4_4',
+        //   },
+        // ],
       },
     ],
     subMenu: [

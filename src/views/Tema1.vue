@@ -9,17 +9,17 @@
 
     p.mb-4 Los Objetivos de Desarrollo Sostenible (ODS) constituyen un marco global orientado a equilibrar el crecimiento económico, la inclusión social y la protección ambiental. 
 
-    .bloque-texto-g.color-primario-p10.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario-p10.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema1/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 En el contexto de los negocios sostenibles, estos objetivos permiten comprender cómo las decisiones empresariales y de consumo impactan el entorno, su estudio facilita la identificación de oportunidades comerciales responsables, alineando las estrategias de mercado con principios de sostenibilidad aplicables a diferentes sectores productivos.
-  
-    separador
     
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.1 Tipos
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Tipos
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-4.col-sm-2.col-lg-1
@@ -95,10 +95,10 @@
               figure.position-relative
                 img.imagen-inf(src="@/assets/curso/common/world-question.png", alt="")
 
-    separador
-
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.2 Aplicación
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Aplicación
 
     .row.justify-content-center.align-items-center.mb-4
       .col-sm-6.col-lg-3
@@ -129,7 +129,7 @@
 
     p.mb-4 Aplicación empresarial de los ODS en producción, comercialización y consumo, integrando sostenibilidad en procesos, estrategias y decisiones responsables
 
-    .row.justify-content-center.align-items-stretch
+    .row.justify-content-center.align-items-stretch.mb-5
       .col-sm-6.col-lg-4.col-xl-3.mb-4.mb-lg-0
         .bg-cards.p-4.rounded-4.h-100
           img.mb-4.imgw-105(src="@/assets/curso/tema1/7.svg")
@@ -146,10 +146,10 @@
           h4.text-center.mb-4 Consumo
           p.text-center.mb-0 Promoción de hábitos responsables en los clientes, incentivando decisiones de compra informadas y alineadas con principios de sostenibilidad.
 
-    separador
-
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.3	Marco normativo
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Marco normativo
 
     .bg-botones-a10.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center

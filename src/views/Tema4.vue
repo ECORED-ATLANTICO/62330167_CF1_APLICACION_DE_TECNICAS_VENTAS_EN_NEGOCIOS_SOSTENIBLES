@@ -7,7 +7,7 @@
         span 4
       h1 Prospección
 
-    .row.justify-content-center.align-items-center.z-2
+    .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-9
         p La prospección es el proceso mediante el cual las empresas identifican y seleccionan clientes potenciales, permitiendo orientar sus esfuerzos comerciales hacia oportunidades reales de negocio. 
         p En el contexto de los negocios sostenibles, la prospección adquiere un valor estratégico al facilitar la identificación de consumidores interesados en propuestas responsables. 
@@ -22,9 +22,10 @@
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/1.png", alt="")
 
-    Separador
-    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.1 Objetivos
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Objetivos
     
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-6.col-lg-3
@@ -65,7 +66,7 @@
             h4.text-center.mb-4 Generación de oportunidades
             p.text-center.mb-0 Facilita la identificación de nichos de mercado donde existe demanda potencial para productos sostenibles.
 
-    .row.justify-content-center.align-items-center.z-2
+    .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
         .bg-gradiente-pg.p-4.py-5.rounded-5
           .row.justify-content-center.align-items-center
@@ -76,9 +77,10 @@
               h4 Clave estratégica
               p.mb-0 Prospectar bien no es buscar más clientes, es encontrar los correctos.
 
-    separador
-    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.2 Métodos
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Métodos
 
     p.mb-5.z-2 Los métodos de prospección son las formas mediante las cuales las empresas identifican clientes potenciales, estos pueden ser tradicionales o digitales, dependiendo del contexto y del tipo de mercado. En los negocios sostenibles, es fundamental utilizar métodos que permitan identificar consumidores interesados en propuestas responsables, aprovechando herramientas tecnológicas y canales de comunicación actuales.
 
@@ -120,7 +122,7 @@
             td(colspan="2") Permite interactuar con clientes potenciales en espacios donde se presentan productos y tendencias del mercado. 
             td(colspan="2") Una empresa participa en una feria ecológica y establece contacto con consumidores interesados en productos sostenibles. 
 
-    .row.justify-content-center.align-items-center.z-2
+    .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
         .bg-gradiente-gy.p-4.rounded-5
           .row.justify-content-center.align-items-center
@@ -133,9 +135,10 @@
               figure.position-relative
                 img.imagen-inf(src="@/assets/curso/common/world-question.png", alt="")
 
-    separador
-    #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.3 Herramientas
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Herramientas
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-4.col-sm-2.col-lg-1
@@ -167,7 +170,7 @@
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/11.png", alt="")
     
-    .row.justify-content-center.align-items-center.z-2
+    .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
         .bg-gradiente-pg.p-4.py-5.rounded-5
           .row.justify-content-center.align-items-center
@@ -178,9 +181,10 @@
               h4 Clave estratégica
               p.mb-0 Las herramientas convierten datos en oportunidades comerciales.
 
-    separador
-    #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.4 Técnicas
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Técnicas
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-sm-8.col-lg-4

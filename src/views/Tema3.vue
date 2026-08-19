@@ -74,10 +74,10 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4 Principales características de la segmentación de mercado.
-                  p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que describe características clave de segmentación de mercado, como medible, accesible, sustancial y accionable, para orientar estrategias comerciales efectivas. 
+                  h4 Principales características de la segmentación de mercado
+                  p.mb-0 Lo invitamos a explorar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que describe características clave de segmentación de mercado, como medible, accesible, sustancial y accionable, para orientar estrategias comerciales efectivas. 
                 .col-sm-auto.d-flex.gap-2.flex-column
-                  a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=dmXouR4IVT8 "  target="_blank")
+                  a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=dmXouR4IVT8"  target="_blank")
                     span Enlace
                     i.fas.fa-file-video
     
@@ -197,7 +197,7 @@
         .p-4.py-3.bg-secundario-s5.rounded-4
           .row.justify-content-center.align-items-center
             .col-lg-10
-              p.mb-4.mb-lg-0 Asimismo, el componente fortalece la capacidad del aprendiz para analizar el mercado, segmentar consumidores y reconocer oportunidades comerciales sostenibles en función del contexto local. Mediante el uso de herramientas, métodos y técnicas de prospección, se promueve la toma de decisiones fundamentadas que integran criterios ambientales, sociales y económicos, contribuyendo al desarrollo de competencias necesarias para la caracterización del cliente y la identificación de oportunidades en negocios sostenibles.
+              p.mb-4.mb-lg-0 El proceso inicia con la recolección de información sobre el mercado, incluyendo datos de consumo, preferencias y tendencias. Posteriormente, se analiza esta información para identificar patrones que permitan segmentar el mercado y reconocer oportunidades. Este análisis es clave para tomar decisiones informadas y diseñar propuestas comerciales alineadas con las necesidades del consumidor.
             .col-6.col-sm-3.col-lg-2
               figure
                 img(data-aos="fade-down-right", src="@/assets/curso/deco.svg", alt="")
@@ -253,7 +253,7 @@
         .p-4.py-3.bg-secundario-s5.rounded-4
           .row.justify-content-center.align-items-center
             .col-lg-9
-              p.mb-4.mb-lg-0 Asimismo, el componente fortalece la capacidad del aprendiz para analizar el mercado, segmentar consumidores y reconocer oportunidades comerciales sostenibles en función del contexto local. Mediante el uso de herramientas, métodos y técnicas de prospección, se promueve la toma de decisiones fundamentadas que integran criterios ambientales, sociales y económicos, contribuyendo al desarrollo de competencias necesarias para la caracterización del cliente y la identificación de oportunidades en negocios sostenibles.
+              p.mb-4.mb-lg-0 La selección implica elegir los segmentos más adecuados para enfocar los esfuerzos comerciales, mientras que la evaluación permite comparar opciones y tomar decisiones informadas. Por ejemplo, una empresa puede evaluar si un segmento de consumidores sostenibles tiene suficiente demanda y disposición de pago para justificar la inversión, este análisis reduce riesgos y mejora la efectividad de las estrategias comerciales.
             .col-6.col-sm-3.col-lg-2
               figure
                 img(data-aos="fade-down-right", src="@/assets/curso/deco.svg", alt="")
@@ -325,7 +325,7 @@
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
-        h3.titulo-con-imagen__texto Etapas del procedimiento de identificación
+        h3.titulo-con-imagen__texto Tipos de variables del mercado y características
 
     p.mb-5.z-2 Variables del mercado que influyen en decisiones de compra y comportamiento del consumidor en contextos sostenibles.
 
@@ -333,7 +333,7 @@
       .col-lg-8.col-xl-7
         TabsA.color-primario
           .tarjeta.p-4(titulo="Económicas")
-            p.mb-0 Incluyen ingresos, precios y capacidad de compra, influyendo en la decisión del consumidor frente a productos sostenibles. 
+            p.mb-0 Incluyen ingresos, precios y capacidad de compra, influyendo en la decisión del consumidor frente a productos sostenibles.
           .tarjeta.p-4(titulo="Sociales")
             p.mb-0 Relacionadas con estilos de vida, valores y comportamientos, siendo clave para identificar consumidores verdes. 
           .tarjeta.p-4(titulo="Culturales")
@@ -375,7 +375,7 @@
       span Proceso de implementación de estrategias comerciales sostenibles
     img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema3/19-mob.png", alt="la figura muestra el proceso de implementación de estrategias comerciales sostenibles.")
     img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema3/19.png", alt="la figura muestra el proceso de implementación de estrategias comerciales sostenibles.")
-    figcaption.mb-5 Nota. SENA, (2026).
+    figcaption.mb-5 Nota. OpenAI. (2026). Proceso de implementación de estrategias comerciales sostenibles 
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -399,7 +399,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4 Tipos de mercado según el producto.
-                  p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica tipos de mercado según producto: consumo, uso, industrial, servicios y financieros, diferenciando características y aplicación en contextos comerciales.
+                  p.mb-0 Lo invitamos a explorar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica tipos de mercado según producto: consumo, uso, industrial, servicios y financieros, diferenciando características y aplicación en contextos comerciales.
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=EmGQqh0hoNc"  target="_blank")
                     span Enlace

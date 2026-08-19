@@ -7,7 +7,7 @@
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/sintesis.png", alt="" data-aos="zoom-in-down")
       .col-lg-8
-        p El Componente Formativo Perfil del cliente ofrece al aprendiz los fundamentos conceptuales y aplicados de la sostenibilidad, el consumidor verde, el mercado y la prospección, permitiendo comprender cómo las decisiones de consumo y las dinámicas comerciales se relacionan con el entorno. A través de estos elementos, se facilita la identificación de características del consumidor sostenible y el análisis de variables que influyen en la toma de decisiones dentro de contextos comerciales responsables.
+        p El componente formativo perfil del consumidor ofrece al aprendiz los fundamentos conceptuales y aplicados de la sostenibilidad, el consumidor verde, el mercado y la prospección, permitiendo comprender cómo las decisiones de consumo y las dinámicas comerciales se relacionan con el entorno. A través de estos elementos, se facilita la identificación de características del consumidor sostenible y el análisis de variables que influyen en la toma de decisiones dentro de contextos comerciales responsables.
         .p-4.py-3.bg-secundario-s5.rounded-4
           .row.justify-content-center.align-items-center
             .col-lg-9

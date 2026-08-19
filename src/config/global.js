@@ -264,7 +264,7 @@ export default {
     {
       referencia:
         'Docsity. (s.f.). <em>Tema 8: La comunicación comercial</em>. Apuntes de Investigación Empresarial.',
-      link: 'https://www.docsity.com',
+      link: '',
     },
     {
       referencia:
@@ -274,12 +274,12 @@ export default {
     {
       referencia:
         'Ellen MacArthur Foundation. (s.f.). <em>What is the circular economy?</em>',
-      link: 'https://ellenmacarthurfoundation.org/topics/circular-economy-introduction/overview',
+      link: '',
     },
     {
       referencia:
         'International Organization for Standardization. (s.f.). <em>ISO 14001 Environmental Management</em>.',
-      link: 'https://www.iso.org/iso-14001-environmental-management.html',
+      link: '',
     },
     {
       referencia:
@@ -294,11 +294,11 @@ export default {
     {
       referencia:
         'Naciones Unidas. (s.f.). <em>Objetivos de Desarrollo Sostenible</em>.',
-      link: 'https://sdgs.un.org/es/goals',
+      link: '',
     },
     {
       referencia: 'Nike. (s.f.). <em>Move to Zero</em>.',
-      link: 'https://www.nike.com/sustainability',
+      link: '',
     },
     {
       referencia:
@@ -313,7 +313,7 @@ export default {
     {
       referencia:
         'United Nations. (s.f.). <em>Sustainable Development Goals</em>.',
-      link: 'https://sdgs.un.org/goals',
+      link: '',
     },
   ],
   creditos: [

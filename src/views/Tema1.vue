@@ -38,7 +38,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4 Qué son los Objetivos de Desarrollo Sostenible? <br> | Agenda 2030 | Educación Ambiental Digital
-                  p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica el origen de los Objetivos de Desarrollo Sostenible dentro de la Agenda 2030, detallando sus 17 objetivos y su propósito de abordar problemáticas globales como la pobreza, la desigualdad y el cambio climático.
+                  p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica el origen de los Objetivos de Desarrollo Sostenible dentro de la Agenda 2030, detallando sus 17 objetivos y su propósito de abordar problemáticas globales como la pobreza, la desigualdad y el cambio climático.
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=twMRJ6a-j7A"  target="_blank")
                     span Enlace

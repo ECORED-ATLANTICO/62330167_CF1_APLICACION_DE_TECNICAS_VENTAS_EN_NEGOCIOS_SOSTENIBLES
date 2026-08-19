@@ -32,25 +32,8 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Objetivos desarrollo sostenible (sostenibilidad)',
+        titulo: 'Objetivos de Desarrollo Sostenible (sostenibilidad)',
         desarrolloContenidos: true,
-        // subMenu: [
-        //   {
-        //     numero: '1.1',
-        //     titulo: 'Tipos',
-        //     hash: 't_1_1',
-        //   },
-        //   {
-        //     numero: '1.2',
-        //     titulo: 'Aplicación',
-        //     hash: 't_1_2',
-        //   },
-        //   {
-        //     numero: '1.3',
-        //     titulo: 'Marco normativo',
-        //     hash: 't_1_3',
-        //   },
-        // ],
       },
 
       {
@@ -58,114 +41,18 @@ export default {
         numero: '2',
         titulo: 'Consumidor verde',
         desarrolloContenidos: true,
-        // subMenu: [
-        //   {
-        //     numero: '2.1',
-        //     titulo: 'Tipos',
-        //     hash: 't_2_1',
-        //   },
-        //   {
-        //     numero: '2.2',
-        //     titulo: 'Sostenibilidad',
-        //     hash: 't_2_2',
-        //   },
-        //   {
-        //     numero: '2.3',
-        //     titulo: 'Ciclo de vida del producto',
-        //     hash: 't_2_3',
-        //   },
-        //   {
-        //     numero: '2.4',
-        //     titulo: 'Ecodiseño',
-        //     hash: 't_2_4',
-        //   },
-        //   {
-        //     numero: '2.5',
-        //     titulo: '<em>Ecofriendly</em>',
-        //     hash: 't_2_5',
-        //   },
-        //   {
-        //     numero: '2.6',
-        //     titulo: 'Economía circular',
-        //     hash: 't_2_6',
-        //   },
-        // ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
         titulo: 'Mercado',
         desarrolloContenidos: true,
-        // subMenu: [
-        //   {
-        //     numero: '3.1',
-        //     titulo: 'Concepto',
-        //     hash: 't_3_1',
-        //   },
-        //   {
-        //     numero: '3.2',
-        //     titulo: 'Segmentación',
-        //     hash: 't_3_2',
-        //   },
-        //   {
-        //     numero: '3.3',
-        //     titulo: 'Estrategias',
-        //     hash: 't_3_3',
-        //   },
-        //   {
-        //     numero: '3.4',
-        //     titulo: 'Procedimiento de identificación',
-        //     hash: 't_3_4',
-        //   },
-        //   {
-        //     numero: '3.5',
-        //     titulo: 'Técnicas de selección y de evaluación',
-        //     hash: 't_3_5',
-        //   },
-        //   {
-        //     numero: '3.6',
-        //     titulo: 'Variables',
-        //     hash: 't_3_6',
-        //   },
-        //   {
-        //     numero: '3.7',
-        //     titulo: 'Proceso de implementación',
-        //     hash: 't_3_7',
-        //   },
-        //   {
-        //     numero: '3.8',
-        //     titulo: 'Tipologías',
-        //     hash: 't_3_8',
-        //   },
-        // ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
         titulo: 'Prospección',
         desarrolloContenidos: true,
-        // subMenu: [
-        //   {
-        //     numero: '4.1',
-        //     titulo: 'Objetivos',
-        //     hash: 't_4_1',
-        //   },
-        //   {
-        //     numero: '4.2',
-        //     titulo: 'Métodos',
-        //     hash: 't_4_2',
-        //   },
-        //   {
-        //     numero: '4.3',
-        //     titulo: 'Herramientas',
-        //     hash: 't_4_3',
-        //   },
-        //   {
-        //     numero: '4.4',
-        //     titulo: 'Técnicas',
-        //     hash: 't_4_4',
-        //   },
-        // ],
       },
     ],
     subMenu: [
@@ -263,57 +150,38 @@ export default {
   referencias: [
     {
       referencia:
-        'Docsity. (s.f.). <em>Tema 8: La comunicación comercial</em>. Apuntes de Investigación Empresarial.',
-      link: '',
+        'Docsity. (s.f.). Tema 8: <em>La comunicación comercial</em>. Apuntes de Investigación Empresarial.',
+      link: 'https://www.docsity.com/es/docs/tema-8-investigacion-comercial-1/9485284/',
     },
     {
       referencia:
-        'Domínguez Casas, Á. M. (2017). <em>Los programas de fidelización online: un estudio desde el engagement marketing y las comunidades de marca</em> [Tesis doctoral, Universidad de Valladolid]. Dialnet.',
-      link: '',
+        'Domínguez Casas, Á. M. (2017). <em>Los programas de fidelización online: un estudio desde el engagement marketing y las comunidades de marca</em> [Tesis doctoral, Universidad de Valladolid].',
+      link: 'https://dialnet.unirioja.es/servlet/tesis?codigo=155310',
     },
     {
       referencia:
         'Ellen MacArthur Foundation. (s.f.). <em>What is the circular economy?</em>',
-      link: '',
+      link: 'https://www.ellenmacarthurfoundation.org/topics/circular-economy-introduction/overview',
     },
     {
       referencia:
-        'International Organization for Standardization. (s.f.). <em>ISO 14001 Environmental Management</em>.',
-      link: '',
+        'Manzanal, M., Chávez, E., & Rivero, A. (2020). Los elementos de la negociación: ¿cómo intervienen dentro de las etapas? Revista CEA, 4(1).',
+      link: 'https://revistas.uns.edu.ar/cea/article/view/2444',
     },
     {
       referencia:
-        'Manzanal, M., Chávez, E., & Rivero, A. (2020). <em>Los elementos de la negociación: ¿cómo intervienen dentro de las etapas?</em> Revista CEA, 4(1).',
-      link: '',
-    },
-    {
-      referencia:
-        'Miranda Plata, P. A. (2020). <em>Creación e implementación de formatos para el seguimiento de los procesos del área comercial</em> [Trabajo de grado, Universidad Santo Tomás]. Repositorio USTA.',
-      link: '',
-    },
-    {
-      referencia:
-        'Naciones Unidas. (s.f.). <em>Objetivos de Desarrollo Sostenible</em>.',
-      link: '',
-    },
-    {
-      referencia: 'Nike. (s.f.). <em>Move to Zero</em>.',
-      link: '',
-    },
-    {
-      referencia:
-        'Niño Sierra, D. F. (s.f.). <em>Fidelización del cliente</em>. Fundación Universitaria UNIEMPRESARIAL.',
-      link: '',
+        'Miranda Plata, P. A. (2020). Creación e implementación de formatos para el seguimiento de los procesos del área comercial. Universidad Santo Tomás.',
+      link: 'https://www.un.org/sustainabledevelopment/es/sustainable-development-goals/  ',
     },
     {
       referencia:
         'Salcedo, J. (2021). <em>Estrategias y táctica de negociación</em>. Universidad San Marcos.',
-      link: '',
+      link: 'https://repositorio.usam.ac.cr/xmlui/handle/11506/1771',
     },
     {
       referencia:
         'United Nations. (s.f.). <em>Sustainable Development Goals</em>.',
-      link: '',
+      link: 'https://sdgs.un.org/goals',
     },
   ],
   creditos: [
@@ -337,18 +205,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Nicolás Cruz Ríos',
+          cargo: 'Experto Temático Comercio y servicio',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -357,17 +220,22 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Jesus Antonio Vecino Valero',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Fabio Fonseca Arguelles',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Alexander Rafael Acosta Bedoya',
+          cargo: 'Animador y productor audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -377,13 +245,23 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luz Karime Amaya Cabra',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Laura Daniela Burgos Rueda',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adié Villafañe',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'Karine Isabel Ospino Fritz',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

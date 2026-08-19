@@ -75,7 +75,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4 Principales características de la segmentación de mercado
-                  p.mb-0 Lo invitamos a explorar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que describe características clave de segmentación de mercado, como medible, accesible, sustancial y accionable, para orientar estrategias comerciales efectivas. 
+                  p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que describe características clave de segmentación de mercado, como medible, accesible, sustancial y accionable, para orientar estrategias comerciales efectivas.
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=dmXouR4IVT8"  target="_blank")
                     span Enlace
@@ -375,7 +375,7 @@
       span Proceso de implementación de estrategias comerciales sostenibles
     img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema3/19-mob.png", alt="la figura muestra el proceso de implementación de estrategias comerciales sostenibles.")
     img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema3/19.png", alt="la figura muestra el proceso de implementación de estrategias comerciales sostenibles.")
-    figcaption.mb-5 Nota. OpenAI. (2026). Proceso de implementación de estrategias comerciales sostenibles 
+    figcaption.mb-5 Nota. SENA, (2026). 
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -398,8 +398,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4 Tipos de mercado según el producto.
-                  p.mb-0 Lo invitamos a explorar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica tipos de mercado según producto: consumo, uso, industrial, servicios y financieros, diferenciando características y aplicación en contextos comerciales.
+                  h4 Tipos de mercado según el producto
+                  p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica tipos de mercado según producto: consumo, uso, industrial, servicios y financieros, diferenciando características y aplicación en contextos comerciales.
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=EmGQqh0hoNc"  target="_blank")
                     span Enlace
@@ -409,7 +409,7 @@
         .bg-audio.rounded-5.overflow-hidden.p-4.p-lg-0
           .row.justify-content-center.align-items-center
             .col-lg-7.mb-4.mb-lg-0
-              p.mb-4 A continuación, se invita a escuchar al siguiente podcast: 
+              p.mb-4 A continuación, se invita al siguiente pódcast: 
               TarjetaAudio.color-acento-contenido.mb-3(
                 texto="¿En qué consiste la economía circular? "
                 :audio="require_src('@/assets/componentes/audios/audio-ej.mp3')"
@@ -418,7 +418,6 @@
               figure
                 img.imgw-200(src="@/assets/curso/tema2/24.png", alt="")
       
-
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-10
         .bg-quote.p-4.rounded-5

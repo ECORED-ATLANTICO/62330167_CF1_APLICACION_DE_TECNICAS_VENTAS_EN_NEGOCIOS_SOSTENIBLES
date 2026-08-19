@@ -248,7 +248,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4 Prospección de clientes.
-                  p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica la prospección de clientes, destacando su importancia, canales, análisis, clasificación, estrategias, seguimiento y técnicas para generar oportunidades comerciales efectivas.
+                  p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica la prospección de clientes, destacando su importancia, canales, análisis, clasificación, estrategias, seguimiento y técnicas para generar oportunidades comerciales efectivas. 
 
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=50E2sAVgx5c  "  target="_blank")

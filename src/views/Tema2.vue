@@ -388,7 +388,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4 ¿En qué consiste la economía circular?
-                  p.mb-0 Lo invitamos a ver el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica la economía circular como un modelo basado en la reducción, reutilización y reciclaje de recursos, contrastándolo con el modelo lineal tradicional.
+                  p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que explica la economía circular como un modelo basado en la reducción, reutilización y reciclaje de recursos, contrastándolo con el modelo lineal tradicional. 
 
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=wc_65-yf6zU" target="_blank" rel="noopener noreferrer")

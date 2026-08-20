@@ -368,10 +368,10 @@
         .bg-audio.rounded-5.overflow-hidden.p-4.p-lg-0
           .row.justify-content-center.align-items-center
             .col-lg-7.mb-4.mb-lg-0
-              p.mb-4 A continuación, se invita a escuchar al siguiente podcast: 
+              p.mb-4 A continuación, se invita a escuchar el siguiente pódcast: 
               TarjetaAudio.color-acento-contenido.mb-3(
-                texto="¿En qué consiste la economía circular? "
-                :audio="require_src('@/assets/componentes/audios/audio-ej.mp3')"
+                texto="Estrategia del consumidor verde"
+                :audio="require_src('@/assets/curso/audio/estrategia-del-consumidor-verde.mp3')"
               )
             .col-sm-6.col-lg-3
               figure

@@ -220,7 +220,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Jesus Antonio Vecino Valero',
+          nombre: 'Carmen Alicia Martínez Torres',
           cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },

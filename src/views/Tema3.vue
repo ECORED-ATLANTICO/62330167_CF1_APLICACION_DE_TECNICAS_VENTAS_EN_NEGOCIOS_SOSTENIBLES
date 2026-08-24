@@ -409,10 +409,10 @@
         .bg-audio.rounded-5.overflow-hidden.p-4.p-lg-0
           .row.justify-content-center.align-items-center
             .col-lg-7.mb-4.mb-lg-0
-              p.mb-4 A continuación, se invita al siguiente pódcast: 
+              p.mb-4 Se invita al siguiente pódcast:
               TarjetaAudio.color-acento-contenido.mb-3(
-                texto="¿En qué consiste la economía circular? "
-                :audio="require_src('@/assets/componentes/audios/audio-ej.mp3')"
+                texto="Dinámica estratégica del mercado"
+                :audio="require_src('@/assets/curso/audio/Dinamica-estrategica-del-mercado.mp3')"
               )
             .col-sm-6.col-lg-3
               figure

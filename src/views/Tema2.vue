@@ -368,7 +368,7 @@
         .bg-audio.rounded-5.overflow-hidden.p-4.p-lg-0
           .row.justify-content-center.align-items-center
             .col-lg-7.mb-4.mb-lg-0
-              p.mb-4 A continuación, se invita a escuchar el siguiente pódcast: 
+              p.mb-4 Se invita al siguiente pódcast:
               TarjetaAudio.color-acento-contenido.mb-3(
                 texto="Estrategia del consumidor verde"
                 :audio="require_src('@/assets/curso/audio/estrategia-del-consumidor-verde.mp3')"

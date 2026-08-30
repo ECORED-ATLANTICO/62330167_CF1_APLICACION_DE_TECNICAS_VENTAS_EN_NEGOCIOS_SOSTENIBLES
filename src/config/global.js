@@ -170,13 +170,18 @@ export default {
     },
     {
       referencia:
-        'Miranda Plata, P. A. (2020). Creación e implementación de formatos para el seguimiento de los procesos del área comercial. Universidad Santo Tomás.',
-      link: 'https://www.un.org/sustainabledevelopment/es/sustainable-development-goals/  ',
+        'Miranda Plata, P. A. (2020). <em>Creación e implementación de formatos para el seguimiento de los procesos del área comercial</em>. Universidad Santo Tomás.',
+      link: '',
+    },
+    {
+      referencia:
+        'Naciones Unidas. (s.f.). <em>Objetivos de Desarrollo Sostenible</em>.',
+      link: 'https://www.un.org/sustainabledevelopment/es/sustainable-developmentgoals/',
     },
     {
       referencia:
         'Salcedo, J. (2021). <em>Estrategias y táctica de negociación</em>. Universidad San Marcos.',
-      link: 'https://repositorio.usam.ac.cr/xmlui/handle/11506/1771',
+      link: '',
     },
     {
       referencia:
@@ -221,7 +226,7 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Diseñador de contenidos digitales',
+          cargo: 'Diseñadora de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -246,12 +251,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -261,7 +266,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

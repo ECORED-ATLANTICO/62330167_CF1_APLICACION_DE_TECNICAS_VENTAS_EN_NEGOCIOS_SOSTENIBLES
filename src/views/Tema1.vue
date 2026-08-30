@@ -82,7 +82,7 @@
             h4.mb-4 Ambiental
             p.mb-0.px-4 Promueve la protección de los recursos naturales, la reducción del impacto ambiental y el uso eficiente de los recursos, siendo clave para el desarrollo de productos sostenibles. 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5.z-2
       .col-xl-10
         .bg-gradiente-gy.p-4.rounded-5
           .row.justify-content-center.align-items-center
@@ -100,7 +100,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
         h3.titulo-con-imagen__texto Aplicación
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4.z-2
       .col-sm-6.col-lg-3
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema1/6.png", alt="" data-aos="zoom-in-down")
@@ -113,7 +113,7 @@
             .col-6.col-sm-3.col-lg-2
               img(src="@/assets/curso/deco.svg", alt="")
 
-    .bg-img.bg-img--2.rounded-5.p-4.p-lg-5.py-lg-4.position-relative.mb-5
+    .bg-img.bg-img--2.rounded-5.p-4.p-lg-5.py-lg-4.position-relative.mb-5.z-2
       .tarjeta.tarjeta--blanca.p-5.py-4.rounded-5
         .row.justify-content-center.align-items-center
           .col-lg-10
@@ -122,14 +122,16 @@
             figure
               img.arbol-img(src="@/assets/curso/common/arbol-ej.png", alt="")
 
+    p.mb-4.z-2 A continuación, se presenta un recurso que muestra cómo los ODS pueden incorporarse en tres ámbitos fundamentales de la gestión empresarial: la producción, la comercialización y el consumo. Esta clasificación permite comprender de manera práctica las principales áreas de aplicación y las acciones que favorecen un desarrollo sostenible en las organizaciones. 
+
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
         h3.titulo-con-imagen__texto Aplicación empresarial de los ODS
 
-    p.mb-4 Aplicación empresarial de los ODS en producción, comercialización y consumo, integrando sostenibilidad en procesos, estrategias y decisiones responsables.
+    p.mb-4.z-2 Aplicación empresarial de los ODS en producción, comercialización y consumo, integrando sostenibilidad en procesos, estrategias y decisiones responsables.
 
-    .row.justify-content-center.align-items-stretch.mb-5
+    .row.justify-content-center.align-items-stretch.mb-5.z-2
       .col-sm-6.col-lg-4.col-xl-3.mb-4.mb-lg-0
         .bg-cards.p-4.rounded-4.h-100
           img.mb-4.imgw-105(src="@/assets/curso/tema1/7.svg")

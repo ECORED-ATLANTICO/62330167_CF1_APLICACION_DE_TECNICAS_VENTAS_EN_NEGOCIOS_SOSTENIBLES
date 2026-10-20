@@ -81,7 +81,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/62330167_CF01_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -172,11 +172,6 @@ export default {
       referencia:
         'Miranda Plata, P. A. (2020). <em>Creación e implementación de formatos para el seguimiento de los procesos del área comercial</em>. Universidad Santo Tomás.',
       link: '',
-    },
-    {
-      referencia:
-        'Naciones Unidas. (s.f.). <em>Objetivos de Desarrollo Sostenible</em>.',
-      link: 'https://www.un.org/sustainabledevelopment/es/sustainable-developmentgoals/',
     },
     {
       referencia:

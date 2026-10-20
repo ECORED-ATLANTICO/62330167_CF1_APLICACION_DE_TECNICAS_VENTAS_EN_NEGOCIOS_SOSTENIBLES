@@ -204,7 +204,7 @@
       .tarjeta.tarjeta--blanca.p-5.py-4.rounded-5
         .row.justify-content-center.align-items-center
           .col-lg-10
-            p.mb-3.mb-lg-0 #[strong Ejemplo aplicado]. Empresas como Patagonia utilizan técnicas de interacción con clientes para comprender sus necesidades y fortalecer su relación con ellos, esto demuestra que las técnicas de prospección no solo buscan vender, sino también construir relaciones comerciales basadas en la confianza y la sostenibilidad. 
+            p.mb-3.mb-lg-0 #[strong Ejemplo aplicado]. Empresas como Patagonia, Inc., conocida comercialmente como Patagonia. utilizan técnicas de interacción con clientes para comprender sus necesidades y fortalecer su relación con ellos, esto demuestra que las técnicas de prospección no solo buscan vender, sino también construir relaciones comerciales basadas en la confianza y la sostenibilidad. 
           .col-sm-4.col-lg-2
             figure
               img.arbol-img(src="@/assets/curso/common/arbol-ej.png", alt="")

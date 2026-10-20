@@ -107,7 +107,7 @@
       .tarjeta.tarjeta--blanca.p-5.py-4.rounded-5
         .row.justify-content-center.align-items-center
           .col-lg-10
-            p.mb-3.mb-lg-0 #[strong Ejemplo aplicado]. Un caso representativo es el de Patagonia, que ha construido su propuesta de valor en torno a la sostenibilidad. Sus clientes no solo compran productos, sino que respaldan una filosofía ambiental, esto demuestra que la sostenibilidad no es solo un atributo, sino un factor determinante en la construcción de relaciones comerciales sólidas y duraderas.
+            p.mb-3.mb-lg-0 #[strong Ejemplo aplicado]. Un caso representativo es el de Patagonia, Inc., conocida comercialmente como Patagonia., que ha construido su propuesta de valor en torno a la sostenibilidad. Sus clientes no solo compran productos, sino que respaldan una filosofía ambiental, esto demuestra que la sostenibilidad no es solo un atributo, sino un factor determinante en la construcción de relaciones comerciales sólidas y duraderas.
           .col-sm-4.col-lg-2
             figure
               img.arbol-img(src="@/assets/curso/common/arbol-ej.png", alt="")

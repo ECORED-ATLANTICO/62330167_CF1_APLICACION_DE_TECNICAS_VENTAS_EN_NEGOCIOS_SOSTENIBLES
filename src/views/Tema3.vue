@@ -31,7 +31,7 @@
       .col-sm-6.col-lg-3
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema3/3.png", alt="" data-aos="zoom-in-down")
-      .col-lg-9
+      .col-lg-9.bg-img.p-4
         p El mercado se define como el conjunto de relaciones entre compradores y vendedores que interactúan para intercambiar bienes y servicios, este espacio no es únicamente físico, sino también digital y social, donde se configuran dinámicas de oferta y demanda. En el contexto sostenible, el mercado incorpora variables ambientales y sociales que influyen en las decisiones de compra y en la forma en que las empresas diseñan sus estrategias comerciales.
         p.mb-0 Comprender el concepto de mercado implica reconocer que no todos los consumidores tienen las mismas necesidades ni comportamientos. Factores como la sostenibilidad, el precio, la calidad y la percepción de valor influyen en la decisión de compra. Por ejemplo, un consumidor verde prioriza atributos ambientales, mientras que otros pueden enfocarse en el costo, lo que evidencia la diversidad dentro del mercado.
 
@@ -75,7 +75,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4 Principales características de la segmentación de mercado
-                  p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que describe características clave de segmentación de mercado, como medible, accesible, sustancial y accionable, para orientar estrategias comerciales efectivas.
+                  p.mb-0 Lo invitamos a consultar el siguiente recurso educativo por medio del cual podrá profundizar en temática abordada, el cual corresponde a un video que describe características clave de segmentación de mercado, como definición, tipos y beneficios, para orientar estrategias comerciales efectivas.
                 .col-sm-auto.d-flex.gap-2.flex-column
                   a.boton.color-acento-botones.d-block(href="https://www.youtube.com/watch?v=dmXouR4IVT8"  target="_blank")
                     span Enlace

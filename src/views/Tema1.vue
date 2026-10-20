@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Objetivos de desarrollo sostenible (sostenibilidad)
+      h1 Objetivos de Desarrollo Sostenible (sostenibilidad)
 
     p.mb-4 Los Objetivos de Desarrollo Sostenible (ODS) constituyen un marco global orientado a equilibrar el crecimiento económico, la inclusión social y la protección ambiental. 
 
@@ -117,7 +117,7 @@
       .tarjeta.tarjeta--blanca.p-5.py-4.rounded-5
         .row.justify-content-center.align-items-center
           .col-lg-10
-            p.mb-3.mb-lg-0 #[strong Ejemplo aplicado]. Un caso representativo es el de Natura, empresa que ha integrado la sostenibilidad en toda su cadena de valor, desde la obtención de materias primas hasta la comercialización, esto le ha permitido posicionarse como una marca confiable y responsable, demostrando que la aplicación de los ODS no solo es viable, sino estratégica para el crecimiento empresarial en mercados cada vez más exigentes. 
+            p.mb-3.mb-lg-0 #[strong Ejemplo aplicado]. Un caso representativo es el de Natura Cosméticos S.A., perteneciente al grupo corporativo Natura & Co S.A. empresa que ha integrado la sostenibilidad en toda su cadena de valor, desde la obtención de materias primas hasta la comercialización, esto le ha permitido posicionarse como una marca confiable y responsable, demostrando que la aplicación de los ODS no solo es viable, sino estratégica para el crecimiento empresarial en mercados cada vez más exigentes.
           .col-sm-4.col-lg-2
             figure
               img.arbol-img(src="@/assets/curso/common/arbol-ej.png", alt="")
